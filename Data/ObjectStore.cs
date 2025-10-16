@@ -1,5 +1,3 @@
-using System.Text.Json;
-using System.Xml.Linq;
 using PohLibrary.GameObjects;
 using PohLibrary.GameObjects.Simple;
 using PohLibrary.GenericObjects;
@@ -138,6 +136,7 @@ public static class ObjectStore
 
     private static void AddRelatesTo(IEnumerable<AbstractObject> objects, ObjectRef relateToRef, Dictionary<string, List<Exception>> errors)
     {
+        // ReSharper disable once PossibleInvalidCastExceptionInForeachLoop
         foreach (IObjectWithRelatesTo relatedObj in objects)
         {
             PohLib.TryTo(() => relatedObj.RelatesTo.Add(relateToRef), errors, relateToRef.Key);

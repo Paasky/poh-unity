@@ -7,7 +7,7 @@ public class ConceptType : TypeObject
 {
     private List<string> _typeKeys = [];
     
-    public bool Is(AbstractObject obj)
+    public new bool Is(AbstractObject obj)
     {
         if (obj is IObjectWithConcept withConceptObj && Is(withConceptObj))
         {

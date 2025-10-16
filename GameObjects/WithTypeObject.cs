@@ -1,12 +1,11 @@
 using PohLibrary.GenericObjects;
-using PohLibrary.Helpers;
 using PohLibrary.TypeObjects;
 
 namespace PohLibrary.GameObjects;
 
-public abstract class WithTypeObject : GameObject
+public abstract class WithTypeObject(ObjectRef typeObjectRef) : GameObject
 {
-    public ObjectRef TypeObjectRef { get; }
+    public ObjectRef TypeObjectRef { get; } = typeObjectRef;
 
     public TypeObject Type()
     {

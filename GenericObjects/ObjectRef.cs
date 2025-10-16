@@ -60,9 +60,27 @@ public class ObjectRef(string className, string id, string? name = null)
         return Key == obj.Key;
     }
 
-    // Placeholder to match DataLoader flow
     public static void FillDetails()
     {
-        // no-op for now
+        var errors = new Dictionary<string, List<Exception>>();
+        foreach (var classRefs in Store.Values)
+        {
+            foreach (var classRef in classRefs.Values)
+            {
+                if (classRef.Name == null)
+                {
+                    PohLib.TryTo(() => classRef.Name = classRef.Object().Name, errors);
+                }
+            }
+        }
+
+        if (errors.Count == 0) return;
+        
+        var eList = new List<Exception>();
+        foreach (var exceptions in errors.Select(keyVal => keyVal.Value))
+        {
+            eList.AddRange(exceptions);
+        }
+        throw new AggregateException(eList);
     }
 }
