@@ -40,6 +40,11 @@ public class YieldEffect
     {
         return Vs.All().Any(vsRef => obj.Is(vsRef));
     }
+
+    public bool IsMod()
+    {
+        return For.All().Count > 0 || Vs.All().Count > 0;
+    }
     
     public static double GetTotal(ObjectRef yieldTypeRef, IEnumerable<YieldEffect> yields)
     {

@@ -26,11 +26,16 @@ public abstract class TypeObject : AbstractObject,
         var name = data.GetProperty("name").GetString()!;
         var id = FormatId(name);
         
-        return (T)Activator.CreateInstance(
+        var instance = (T)Activator.CreateInstance(
             typeof(T),
             id,
             name,
             data.TryGetProperty("description", out var d) ? d.GetString() : null
         )!;
+
+        instance.LoadFromJson(data);
+        return instance;
     }
+    
+    protected abstract TypeObject LoadFromJson(JsonElement data);
 }

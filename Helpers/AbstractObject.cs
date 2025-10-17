@@ -1,5 +1,6 @@
 using System.Globalization;
 using System.Text;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 using PohLibrary.GenericObjects;
 
@@ -13,7 +14,7 @@ public abstract partial class AbstractObject
     public string? Name { get; set; }
     public string? Description { get; set; }
 
-    public AbstractObject(string? id = null, string? name = null, string? description = null)
+    protected AbstractObject(string? id = null, string? name = null, string? description = null)
     {
         Class = FormatClass();
         Id = string.IsNullOrWhiteSpace(id) ? Guid.NewGuid().ToString() : id;
