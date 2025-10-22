@@ -7,47 +7,73 @@ namespace PohLibrary.Data;
 
 public static class ObjectStore
 {
-    private static readonly Dictionary<string, Dictionary<string, AbstractObject>> Store = [];
+    private static readonly Dictionary<string, Dictionary<string, IObject>> Store = [];
     public static World? World = null;
 
-    public static void Set(AbstractObject obj)
+    public static void Set(IObject obj)
     {
         if (!Store.TryGetValue(obj.Class, out var classDict))
         {
-            classDict = new Dictionary<string, AbstractObject>();
+            classDict = new Dictionary<string, IObject>();
             Store[obj.Class] = classDict;
         }
 
         classDict[obj.Id] = obj;
     }
 
-    public static AbstractObject Get(ObjectRef objectRef)
+    public static TObj Get<TObj>(ObjectRef<TObj> objectRef) where TObj : IObject
     {
-        return Store[objectRef.Class][objectRef.Id];
+        return Get<TObj>(objectRef.Class, objectRef.Id);
     }
 
-    public static Dictionary<string, AbstractObject> GetAll(string className)
+    public static TObj Get<TObj>(string className, string id) where TObj : IObject
+    {
+        return (TObj)Store[className][id];
+    }
+
+    public static Dictionary<string, IObject> GetAll(string className)
     {
         return Store[className];
     }
-
-    public static AbstractObject? TryToGet(ObjectRef objectRef)
+    
+    public static bool TryToGet<TObj>(
+        ObjectRef<TObj> objectRef,
+        out TObj result
+    ) where TObj : IObject
     {
         try
         {
-            return Get(objectRef);
+            result = Get(objectRef);
+            return true;
         }
-        catch (Exception)
+        catch
         {
-            return null;
+            result = default!;
+            return false;
+        }
+    }
+    
+    public static bool TryToGet<TObj>(
+        string className,
+        string id,
+        out TObj result
+    ) where TObj : IObject
+    {
+        try
+        {
+            result = Get<TObj>(className, id);
+            return true;
+        }
+        catch
+        {
+            result = default!;
+            return false;
         }
     }
 
     // Placeholder for relation building step; implement as needed later
-    public static void BuildRelations()
+    public static void BuildRelations(Dictionary<string, List<Exception>> errors)
     {
-        var errors = new Dictionary<string, List<Exception>>();
-
         var nonGameObjects = Store.Values.SelectMany(
             objects =>
                 objects.Select(
@@ -61,13 +87,14 @@ public static class ObjectStore
         {
             PohLib.TryTo(() =>
             {
-                var objRef = obj.Ref();
+                var objRef = obj.Ref<IObject>();
 
                 if (obj is IObjectWithAllowsAndRequires objWithRequires)
                 {
-                    foreach (IObjectWithAllowsAndRequires require in objWithRequires.Requires.Objects())
+                    var requireRef = obj.Ref<IObjectWithAllowsAndRequires>();
+                    foreach (var require in objWithRequires.Requires.Objects())
                     {
-                        PohLib.TryTo(() => require.Allows.Add(objRef), errors, obj.Key);
+                        PohLib.TryTo(() => require.Allows.Add(requireRef), errors, obj.Key);
                     }
                 }
 
@@ -88,9 +115,10 @@ public static class ObjectStore
 
                 if (obj is IObjectWithUpgrades objWithUpgrades)
                 {
+                    var upgradeRef = obj.Ref<IObjectWithUpgrades>();
                     foreach (IObjectWithUpgrades upgrade in objWithUpgrades.UpgradesFrom.Objects())
                     {
-                        PohLib.TryTo(() => upgrade.UpgradesTo.Add(objRef), errors, obj.Key);
+                        PohLib.TryTo(() => upgrade.UpgradesTo.Add(upgradeRef), errors, obj.Key);
                     }
                 }
 
@@ -105,15 +133,6 @@ public static class ObjectStore
                 }
             }, errors, obj.Key);
         }
-
-        if (errors.Count == 0) return;
-        
-        var eList = new List<Exception>();
-        foreach (var exceptions in errors.Select(keyVal => keyVal.Value))
-        {
-            eList.AddRange(exceptions);
-        }
-        throw new AggregateException(eList);
     }
 
     public static Dictionary<string, object?> Save()
@@ -134,7 +153,7 @@ public static class ObjectStore
         };
     }
 
-    private static void AddRelatesTo(IEnumerable<AbstractObject> objects, ObjectRef relateToRef, Dictionary<string, List<Exception>> errors)
+    private static void AddRelatesTo(IEnumerable<IObject> objects, ObjectRef<IObject> relateToRef, Dictionary<string, List<Exception>> errors)
     {
         // ReSharper disable once PossibleInvalidCastExceptionInForeachLoop
         foreach (IObjectWithRelatesTo relatedObj in objects)

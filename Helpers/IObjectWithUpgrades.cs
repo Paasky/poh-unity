@@ -2,8 +2,8 @@ using PohLibrary.GenericObjects;
 
 namespace PohLibrary.Helpers;
 
-public interface IObjectWithUpgrades
+public interface IObjectWithUpgrades : IObject
 {
-    public ObjectRefList<ObjectRef> UpgradesFrom { get; }
-    public ObjectRefList<ObjectRef> UpgradesTo { get; }
+    public ObjectRefList<IObjectWithUpgrades> UpgradesFrom { get; }
+    public ObjectRefList<IObjectWithUpgrades> UpgradesTo { get; }
 }

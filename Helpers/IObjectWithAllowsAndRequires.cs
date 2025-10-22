@@ -2,8 +2,8 @@ using PohLibrary.GenericObjects;
 
 namespace PohLibrary.Helpers;
 
-public interface IObjectWithAllowsAndRequires
+public interface IObjectWithAllowsAndRequires : IObject
 {
-    public ObjectRefList<ObjectRef> Allows { get; }
+    public ObjectRefList<IObjectWithAllowsAndRequires> Allows { get; }
     public RequireRefList Requires { get; }
 }

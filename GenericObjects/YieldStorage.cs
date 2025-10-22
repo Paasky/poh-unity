@@ -1,10 +1,12 @@
+using PohLibrary.TypeObjects.Simple;
+
 namespace PohLibrary.GenericObjects;
 
 public class YieldStorage
 {
     private Dictionary<string, YieldEffect> _storage = [];
 
-    public YieldStorage Add(ObjectRef yieldTypeRef, double amount)
+    public YieldStorage Add(ObjectRef<YieldType> yieldTypeRef, double amount)
     {
         if (!_storage.ContainsKey(yieldTypeRef.Key))
         {
@@ -19,7 +21,7 @@ public class YieldStorage
         return this;
     }
 
-    public YieldStorage Subtract(ObjectRef yieldTypeRef, double amount, bool failOnOverflow = true)
+    public YieldStorage Subtract(ObjectRef<YieldType> yieldTypeRef, double amount, bool failOnOverflow = true)
     {
         YieldEffect effect = _storage.GetValueOrDefault(yieldTypeRef.Key, new YieldEffect(yieldTypeRef, 0));
         double newYield = Math.Round(effect.Amount - amount, 1);
@@ -36,7 +38,7 @@ public class YieldStorage
         return this;
     }
 
-    public bool Has(ObjectRef yieldTypeRef, double amount = 0)
+    public bool Has(ObjectRef<YieldType> yieldTypeRef, double amount = 0)
     {
         YieldEffect? effect = _storage!.GetValueOrDefault(yieldTypeRef.Key, null);
         

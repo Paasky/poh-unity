@@ -5,19 +5,32 @@ using PohLibrary.TypeObjects.Simple;
 
 namespace PohLibrary.GameObjects;
 
-public abstract class GameObject : AbstractObject,
+public abstract class GameObject :
     IObjectWithConcept
 {
-    public ObjectRef ConceptRef { get; } = ObjectRef.Get(
-        FormatClass("ConceptType"),
-        FormatId(FormatClass().Replace("Type", ""))
-    );
 
-    public ConceptType Concept()
+    public string Id { get; }
+    public string Class { get; }
+    public string? Name { get; } = null;
+    public string? Description { get; } = null;
+    public ObjectRef<ConceptType> ConceptRef { get; }
+    
+    public GameObject()
     {
-        return (ConceptType)ConceptRef.Object();
+        Class = PohLib.FormatClass(GetType().Name);
+        Id = Guid.NewGuid().ToString();
+        ConceptRef = ObjectRef<ConceptType>.Get("ConceptType", PohLib.FormatId(Class), Class);
     }
 
+    public GameObject(string? id, string? name = null, string? description = null)
+    {
+        Class = PohLib.FormatClass(GetType().Name);
+        Id = string.IsNullOrWhiteSpace(id) ? Guid.NewGuid().ToString() : id;
+        Name = name;
+        Description = description;
+        ConceptRef = ObjectRef<ConceptType>.Get("ConceptType", PohLib.FormatId(Class), Class);
+    }
+    
     public Dictionary<string, object?> Save()
     {
         return new Dictionary<string, object?>{

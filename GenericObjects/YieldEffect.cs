@@ -1,4 +1,6 @@
 using PohLibrary.Helpers;
+using PohLibrary.TypeObjects;
+using PohLibrary.TypeObjects.Simple;
 
 namespace PohLibrary.GenericObjects;
 
@@ -11,34 +13,34 @@ public class YieldEffect
         Set        // "set"
     }
 
-    public ObjectRef TypeRef { get; }
+    public ObjectRef<YieldType> TypeRef { get; }
     public double Amount;
     public YieldMethod Method { get; }
-    public ObjectRefList<ObjectRef> For { get; }
-    public ObjectRefList<ObjectRef> Vs  { get; }
+    public ObjectRefList<TypeObject> For { get; }
+    public ObjectRefList<TypeObject> Vs  { get; }
 
     public YieldEffect(
-        ObjectRef typeRef,
+        ObjectRef<YieldType> typeRef,
         double amount,
         YieldMethod method = YieldMethod.Lump,
-        ObjectRefList<ObjectRef>? @for = null,
-        ObjectRefList<ObjectRef>? vs = null
+        ObjectRefList<TypeObject>? @for = null,
+        ObjectRefList<TypeObject>? vs = null
     ) {
         TypeRef = typeRef;
         Amount = amount;
         Method = method;
-        For = @for ?? new ObjectRefList<ObjectRef>();
-        Vs   = vs ?? new ObjectRefList<ObjectRef>();
+        For = @for ?? new ObjectRefList<TypeObject>();
+        Vs   = vs ?? new ObjectRefList<TypeObject>();
     }
     
-    public bool IsFor(AbstractObject obj)
+    public bool IsFor(IObject obj)
     {
-        return For.All().Any(forRef => obj.Is(forRef));
+        return For.All().Any(@for => @for.Is(obj));
     }
 
-    public bool IsVs(AbstractObject obj)
+    public bool IsVs(IObject obj)
     {
-        return Vs.All().Any(vsRef => obj.Is(vsRef));
+        return Vs.All().Any(vs => vs.Is(obj));
     }
 
     public bool IsMod()
@@ -46,10 +48,10 @@ public class YieldEffect
         return For.All().Count > 0 || Vs.All().Count > 0;
     }
     
-    public static double GetTotal(ObjectRef yieldTypeRef, IEnumerable<YieldEffect> yields)
+    public static double GetTotal(ObjectRef<YieldType> yieldTypeRef, IEnumerable<YieldEffect> yields)
     {
         var total = yields.Where(
-            y => yieldTypeRef.Is(y.TypeRef)
+            y => yieldTypeRef.Is(y.TypeRef.Key)
         ).Sum(
             y => y.Amount
         );

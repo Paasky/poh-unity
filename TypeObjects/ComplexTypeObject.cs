@@ -4,61 +4,33 @@ using PohLibrary.Helpers;
 
 namespace PohLibrary.TypeObjects;
 
-public class ComplexTypeObject : TypeObject,
-    IObjectWithAllowsAndRequires,
-    IObjectWithGains,
-    IObjectWithSpecials,
-    IObjectWithYields
+public abstract class ComplexTypeObject(string id, string name, string? description)
+    : TypeObject(id, name, description),
+        IObjectWithAllowsAndRequires,
+        IObjectWithGains,
+        IObjectWithSpecials,
+        IObjectWithYields
 {
-    public ObjectRefList<ObjectRef> Allows { get; } = new ObjectRefList<ObjectRef>();
-    public RequireRefList Requires { get; } = new RequireRefList([]);
-    public ObjectRefList<Gain> Gains { get; } =  new ObjectRefList<Gain>();
-    public ObjectRefList<ObjectRef> Specials { get; } =   new ObjectRefList<ObjectRef>();
-    
-    public Yields Yields { get; } = new Yields();
+    public ObjectRefList<IObjectWithAllowsAndRequires> Allows { get; } = new();
+    public RequireRefList Requires { get; } = new();
+    public Gains Gains { get; } = [];
+    public ObjectRefList<IObject> Specials { get; } = new();
+    public Yields Yields { get; } = new();
 
-    public Yields YieldOutput(Yields? yieldMods = null, List<string>? yieldTypeIds = null)
-    {
-        var yields = Yields.Direct(yieldTypeIds);
-
-        if (yieldMods == null) return yields;
-            
-        foreach (var yieldEffect in yieldMods.All().Where(yieldEffect =>
-            yieldEffect.IsFor(this)
-            && (
-                yieldTypeIds == null
-                || yieldTypeIds.Contains(yieldEffect.TypeRef.Id)
-            )
-        )) {
-            yields.Add(yieldEffect);
-        }
-
-        return yields;
-    }
-
-    public double YieldTypeOutput(string yieldTypeId, Yields? yieldMods = null)
-    {
-        var yield = YieldOutput(yieldMods, [yieldTypeId]).ApplyMods().All().FirstOrDefault();
-
-        if (yield == null) return 0;
-
-        return yield.Amount;
-    }
-
-    protected override TypeObject LoadFromJson(JsonElement data)
+    public void LoadExtrasFromJson(JsonElement data)
     {
         if (data.TryGetProperty("gains", out var gains))
         {
             foreach (var gain in gains.EnumerateArray())
             {
-                Gains.AddFromJson(gain);   
+                Gains.Add(gain);
             }
         }
         if (data.TryGetProperty("requires", out var requires))
         {
             foreach (var require in requires.EnumerateArray())
             {
-                Requires.AddFromJson(require);   
+                Requires.Add(require);
             }
         }
         // ReSharper disable once InvertIf
@@ -66,10 +38,8 @@ public class ComplexTypeObject : TypeObject,
         {
             foreach (var special in specials.EnumerateArray())
             {
-                Specials.AddFromJson(special);   
+                Specials.Add(special);
             }
         }
-        
-        return this;
     }
 }

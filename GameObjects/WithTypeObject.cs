@@ -3,12 +3,12 @@ using PohLibrary.TypeObjects;
 
 namespace PohLibrary.GameObjects;
 
-public abstract class WithTypeObject(ObjectRef typeObjectRef) : GameObject
+public abstract class WithTypeObject(ObjectRef<TypeObject> typeObjectRef) : GameObject
 {
-    public ObjectRef TypeObjectRef { get; } = typeObjectRef;
+    public ObjectRef<TypeObject> TypeObjectRef { get; } = typeObjectRef;
 
     public TypeObject Type()
     {
-        return (TypeObject)TypeObjectRef.Object();
+        return TypeObjectRef.Object();
     }
 }

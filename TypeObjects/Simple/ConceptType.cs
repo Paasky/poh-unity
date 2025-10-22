@@ -1,29 +1,25 @@
-using PohLibrary.GameObjects;
-using PohLibrary.Helpers;
+using System.Text.Json;
+using PohLibrary.GenericObjects;
 
 namespace PohLibrary.TypeObjects.Simple;
 
 public class ConceptType : TypeObject
 {
-    private List<string> _typeKeys = [];
+    public List<ObjectRef<YieldType>> YieldTypesFromTile { get; } = [];
     
-    public new bool Is(AbstractObject obj)
+    protected ConceptType(string id, string name, string? description) : base(id, name, description)
     {
-        if (obj is IObjectWithConcept withConceptObj && Is(withConceptObj))
-        {
-            return true;
-        }
-        
-        if (obj is WithTypeObject withTypeObj && _typeKeys.Contains(withTypeObj.Type().Key))
-        {
-            return true;
-        }
-        
-        return _typeKeys.Contains(obj.Key);
     }
     
-    public bool Is(IObjectWithConcept obj)
+    protected void LoadExtrasFromJson(JsonElement data)
     {
-        return obj.ConceptRef.Is(this);
+        if (!data.TryGetProperty("yieldTypesFromTile", out var yieldTypesFromTile)) return;
+        
+        foreach (var yieldType in yieldTypesFromTile.EnumerateArray()
+            .Select(yieldTypeElem => yieldTypeElem.GetString())
+            .Where(yieldType => !string.IsNullOrWhiteSpace(yieldType)))
+        {
+            YieldTypesFromTile.Add(ObjectRef<YieldType>.Get("YieldType", PohLib.FormatId(yieldType!)));
+        }
     }
 }

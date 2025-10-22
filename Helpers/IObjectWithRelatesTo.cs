@@ -2,7 +2,7 @@ using PohLibrary.GenericObjects;
 
 namespace PohLibrary.Helpers;
 
-public interface IObjectWithRelatesTo
+public interface IObjectWithRelatesTo : IObject
 {
-    public ObjectRefList<ObjectRef> RelatesTo { get; }
+    public ObjectRefList<IObject> RelatesTo { get; }
 }

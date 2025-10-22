@@ -5,37 +5,26 @@ using PohLibrary.TypeObjects.Simple;
 
 namespace PohLibrary.TypeObjects;
 
-public abstract class TypeObject : AbstractObject,
+public abstract class TypeObject :
     IObjectWithConcept,
     IObjectWithRelatesTo
 {
-    public ObjectRefList<ObjectRef> RelatesTo { get; } = new();
+    public string Id { get; }
+    public string Class { get; }
+    public string Name { get; }
+    public string? Description { get; }
 
-    public ObjectRef ConceptRef { get; } = ObjectRef.Get(
-        FormatClass("ConceptType"),
-        FormatId(FormatClass().Replace("Type", ""))
-    );
+    public ObjectRef<ConceptType> ConceptRef { get; }
 
-    public ConceptType Concept()
+    public ObjectRefList<IObject> RelatesTo { get; }
+
+    protected TypeObject(string? id, string name, string? description)
     {
-        return (ConceptType)ConceptRef.Object();
+        Class = PohLib.FormatClass(GetType().Name);
+        Id = string.IsNullOrWhiteSpace(id) ? PohLib.FormatId(name) : id;
+        Name = name;
+        Description = description;
+        ConceptRef = ObjectRef<ConceptType>.Get("ConceptType", PohLib.FormatId(Class), Class);
+        RelatesTo = new ObjectRefList<IObject>();
     }
-
-    public static T FromJson<T>(JsonElement data) where T : TypeObject
-    {
-        var name = data.GetProperty("name").GetString()!;
-        var id = FormatId(name);
-        
-        var instance = (T)Activator.CreateInstance(
-            typeof(T),
-            id,
-            name,
-            data.TryGetProperty("description", out var d) ? d.GetString() : null
-        )!;
-
-        instance.LoadFromJson(data);
-        return instance;
-    }
-    
-    protected abstract TypeObject LoadFromJson(JsonElement data);
 }

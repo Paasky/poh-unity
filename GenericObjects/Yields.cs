@@ -85,8 +85,9 @@ public class Yields
 
         var yieldEffects = totalAmountPerType.Select(keyValue =>
             new YieldEffect(
-                // ReSharper disable once AccessToStaticMemberViaDerivedType
-                ObjectRef.Get(YieldType.FormatClass(), keyValue.Key), keyValue.Value)
+                ObjectRef<YieldType>.Get("YieldType", keyValue.Key),
+                keyValue.Value
+            )
         );
 
         return new Yields(yieldEffects);

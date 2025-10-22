@@ -3,8 +3,13 @@ using PohLibrary.TypeObjects.Simple;
 
 namespace PohLibrary.Helpers;
 
-public interface IObjectWithConcept
+public interface IObjectWithConcept : IObject
 {
-    public ObjectRef ConceptRef { get; }
-    public ConceptType Concept();
+    public ObjectRef<ConceptType> ConceptRef { get; }
+    
+    
+    public ConceptType Concept()
+    {
+        return ConceptRef.Object();
+    }
 }

@@ -1,7 +1,7 @@
-using System.Reflection;
 using System.Text.Json;
+using PohLibrary.Exceptions;
 using PohLibrary.GenericObjects;
-using PohLibrary.TypeObjects;
+using PohLibrary.Helpers;
 // ReSharper disable ExplicitCallerInfoArgument
 
 namespace PohLibrary.Data;
@@ -9,9 +9,9 @@ namespace PohLibrary.Data;
 public class DataLoader(Action<string>? output)
 {
     private Action<string>? _output = output;
-    public Dictionary<string, List<Exception>> Errors { get; } = [];
+    public DataErrors Errors { get; } = new();
 
-    public void LoadTypes(string directoryPath)
+    public void LoadFromDir(string directoryPath)
     {
         if (!Directory.Exists(directoryPath))
         {
@@ -26,42 +26,30 @@ public class DataLoader(Action<string>? output)
         foreach (var file in files)
         {
             Output($"Loading {file}");
-            LoadType(file);
+            InitObjectsFromFile(file);
         }
 
         Output("Build Relations");
-        PohLib.TryTo(ObjectStore.BuildRelations, Errors, "BuildRelations");
+        var buildErrors = Errors.InitGroup("BuildRelations");
+        ObjectStore.BuildRelations(buildErrors);
 
         Output("Fill ObjectRef details");
-        PohLib.TryTo(ObjectRef.FillDetails, Errors, "FillRefDetails");
-
-        if (Errors.Count <= 0) return;
-        
-        var messages = new List<string>();
-        foreach (var (context, exceptions) in Errors)
-        {
-            messages.AddRange(exceptions.Select(e => $"{context}: {e.Message}"));
-        }
-        throw new Exception(string.Join("; ", messages));
+        var fillErrors = Errors.InitGroup("FillRefDetails");
+        ObjectRef<IObject>.FillDetails(fillErrors);
     }
 
-    private void LoadType(string filePath)
+    private void InitObjectsFromFile(string filePath)
     {
-        var doc = PohLib.TryTo(() => ParseFile(filePath), Errors);
-        if (doc == null) return;
-
         var fileName = Path.GetFileNameWithoutExtension(filePath);
+        var fileErrors = Errors.InitGroup(fileName);
         
-        var classType = PohLib.TryTo(() => ResolveClass(fileName), Errors);
+        var doc = PohLib.TryTo(() => ParseFile(filePath), fileErrors);
+        if (doc == null) return;
+        
+        var classType = PohLib.TryTo(() => ResolveClass(fileName), fileErrors);
         if (classType == null) return;
 
-        int i = 0;
-        foreach (var item in doc.RootElement.EnumerateArray())
-        {
-            var idForLog = item.TryGetProperty("name", out var nameProp) ? nameProp.GetString() ?? i.ToString() : i.ToString();
-            InitObject(classType, item, $"{fileName}[{idForLog}] fromJson");
-            i++;
-        }
+        InitObjects(classType, doc.RootElement, fileErrors);
     }
     
     private static JsonDocument ParseFile(string filePath)
@@ -111,24 +99,31 @@ public class DataLoader(Action<string>? output)
         );
     }
 
-    private void InitObject(Type objectClass, JsonElement data, string context)
+    private void InitObjects(Type objectClass, JsonElement objectsElem, Dictionary<string, List<Exception>> fileErrors)
     {
-        PohLib.TryTo(() =>
+        if (!typeof(IObject).IsAssignableFrom(objectClass) || objectClass.IsAbstract || objectClass.IsInterface)
         {
-            // Build closed generic method TypeObject.FromJson<typeClass>()
-            var methodInfo = FromJsonOpenGeneric.MakeGenericMethod(objectClass);
+            fileErrors["config"] = [new Exception($"invalid object class {objectClass}")];
+            return;
+        }
+
+        var i = 0;
+        foreach (var objectElem in objectsElem.EnumerateArray())
+        {
+            var name = objectElem.TryGetProperty("name", out var nameElem) ? nameElem.GetString() : null;
+            var idForLog = string.IsNullOrWhiteSpace(name) ? i.ToString() : name;
             
-            // Run & return TypeObject.FromJson(typeData)
-            return (TypeObject)methodInfo.Invoke(null, [data])!;
-        }, Errors, context);
+            PohLib.TryTo(
+                () => IObject.FromJson(objectClass, objectElem),
+                fileErrors,
+                idForLog
+            );
+            i++;
+        }
     }
 
     private void Output(string message)
     {
         _output?.Invoke(message);
     }
-    
-    private static readonly MethodInfo FromJsonOpenGeneric =
-        typeof(TypeObject).GetMethod(nameof(TypeObject.FromJson), BindingFlags.Public | BindingFlags.Static)
-        ?? throw new InvalidOperationException("TypeObject.FromJson<T>(JsonElement) not found.");
 }

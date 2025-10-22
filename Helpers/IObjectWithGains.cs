@@ -2,7 +2,7 @@ using PohLibrary.GenericObjects;
 
 namespace PohLibrary.Helpers;
 
-public interface IObjectWithGains
+public interface IObjectWithGains : IObject
 {
-    public ObjectRefList<Gain> Gains { get; }
+    public Gains Gains { get; }
 }
