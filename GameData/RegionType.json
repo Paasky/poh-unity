@@ -1,0 +1,1082 @@
+[
+    {
+        "name": "Congo",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Africa"
+            }
+        ],
+        "cities": [
+            "Kinshasa",
+            "Brazzaville",
+            "Lubumbashi",
+            "Kisangani",
+            "Goma",
+            "Kananga",
+            "Mbandaka",
+            "Matadi",
+            "Boma",
+            "Kolwezi",
+            "Likasi",
+            "Bunia",
+            "Beni",
+            "Kindu",
+            "Mbanza Kongo"
+        ],
+        "description": "The Congo is a central African region defined by the Congo River basin, dense forests, and major mineral belts. Precolonial polities included the Kongo Kingdom and the Luba and Lunda states, which built trade networks across the interior. In 1885 the Congo Free State became King Leopold II\u2019s personal domain, where rubber and ivory extraction caused mass violence and demographic collapse. Belgium annexed the territory in 1908 and expanded mining of copper, cobalt, and other ores. Independence in 1960 triggered the Congo Crisis, the secession of Katanga, and UN intervention. Mobutu Sese Seko consolidated power, renamed the state Zaire, and ruled for decades amid patronage and resource dependence. From the mid-1990s two Congo wars drew neighboring armies and militias into prolonged conflict. The region remains central to global supply chains for cobalt, coltan, and copper."
+    },
+    {
+        "name": "Ethiopia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Africa"
+            }
+        ],
+        "cities": [
+            "Addis Ababa",
+            "Axum",
+            "Gondar",
+            "Lalibela",
+            "Harar",
+            "Dire Dawa",
+            "Bahir Dar",
+            "Mekelle",
+            "Mero\u00eb",
+            "Napata",
+            "Kerma",
+            "Awasa",
+            "Adulis",
+            "Yeha",
+            "Woldiya"
+        ],
+        "description": "Ethiopia is a Horn of Africa state with continuous state traditions and distinct Christian institutions. The Aksumite Empire dominated Red Sea trade between the first and seventh centuries, minting coins and receiving envoys from Byzantium. After the Zagwe period, the restored Solomonic dynasty expanded highland authority and fostered manuscript culture and stone churches. In 1896 Ethiopian forces defeated Italy at Adwa, preserving sovereignty during the Scramble for Africa. Italy occupied the country from 1936 to 1941; liberation restored Emperor Haile Selassie. The 1974 revolution brought the Derg, land reform, war, and famine. Armed movements overthrew the regime in 1991, and Eritrea became independent in 1993. A federal system emerged with competing regional interests. Orthodox Christianity remains influential, alongside Islam and diverse languages. Ethiopia\u2019s diplomacy and military have shaped regional politics along the Nile and the Horn."
+    },
+    {
+        "name": "Morocco",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Africa"
+            }
+        ],
+        "cities": [
+            "Casablanca",
+            "Rabat",
+            "Marrakech",
+            "Fez",
+            "Tangier",
+            "Meknes",
+            "Tetouan",
+            "Agadir",
+            "Oujda",
+            "Kenitra",
+            "Laayoune",
+            "Sal\u00e9",
+            "Taza",
+            "Chefchaouen",
+            "Nador"
+        ],
+        "description": "Morocco developed at the meeting point of the Maghreb, the Sahara, and the Atlantic. Early Islamic rule produced the Idrisid emirate, followed by reforming Berber empires. The Almoravid and Almohad dynasties governed from Marrakesh and projected power into Iberia and North Africa. Later Marinid and Saadi rulers cultivated cities such as Fez and pursued trans-Saharan trade. The Alaouite dynasty consolidated the throne in the seventeenth century and continues today. European pressure led to French and Spanish protectorates in 1912. The Rif War in the 1920s saw Abdelkrim\u2019s republic challenge colonial control. Independence arrived in 1956, and the monarchy navigated Cold War alignments and economic modernization. Since the 1970s, the Western Sahara dispute has shaped security policy. Ports on the Atlantic and straits routes tied Morocco to Mediterranean commerce and sub-Saharan caravan networks over centuries."
+    },
+    {
+        "name": "Nigeria",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Africa"
+            }
+        ],
+        "cities": [
+            "Lagos",
+            "Abuja",
+            "Ibadan",
+            "Kano",
+            "Port Harcourt",
+            "Kaduna",
+            "Maiduguri",
+            "Jos",
+            "Sokoto",
+            "Zaria",
+            "Bauchi",
+            "Katsina",
+            "Ilorin",
+            "Oshogbo",
+            "Yola"
+        ],
+        "description": "Nigeria encompasses dense historical layers and many languages. Early ironworking appears with the Nok culture. Hausa city-states traded across the Sahara, while Oyo and Benin projected regional power with cavalry and urban craft production. In 1804 the Sokoto jihad forged a vast caliphate across the north. Britain established coastal and interior protectorates in the nineteenth century and amalgamated them in 1914. Independence came in 1960, followed by coups and civil war. The secession of Biafra (1967\u20131970) caused mass casualties and reshaped the state. Discovery of oil at Oloibiri in 1956 and later offshore fields transformed revenue, federal politics, and the Niger Delta environment. Military rule ended in 1999 with the Fourth Republic. Nigeria remains Africa\u2019s most populous country, with major urban centers, export hydrocarbons, and persistent debates over federalism, religion, and resource control."
+    },
+    {
+        "name": "Canada",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "America"
+            }
+        ],
+        "cities": [
+            "Toronto",
+            "Montreal",
+            "Vancouver",
+            "Ottawa",
+            "Calgary",
+            "Edmonton",
+            "Winnipeg",
+            "Hamilton",
+            "Gatineau",
+            "Kingston",
+            "Regina",
+            "Saskatoon",
+            "Windsor",
+            "Trois-Rivi\u00e8res",
+            "Syracuse"
+        ],
+        "description": "Canada formed from Indigenous homelands that sustained varied economies, diplomacy, and trade routes. French colonists built New France along the St. Lawrence and interior waterways, anchored by the fur trade. British conquest in 1763 recast imperial administration and drew Loyalist settlement. Nineteenth-century reforms produced responsible government and the 1840 union of the Canadas. Confederation in 1867 created a federal dominion that expanded westward and northward. The Canadian Pacific Railway, completed in the 1880s, linked the Atlantic to the Pacific and enabled prairie settlement. Industrial growth and immigration reshaped cities and labor. Canada fought in two world wars and gained legislative autonomy through the Statute of Westminster in 1931. The Constitution was patriated in 1982 with a rights charter. Resource extraction, Indigenous treaties, and Quebec\u2019s distinct society have remained central political questions."
+    },
+    {
+        "name": "Cuba",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "America"
+            }
+        ],
+        "cities": [
+            "Havana",
+            "Santiago de Cuba",
+            "Camag\u00fcey",
+            "Holgu\u00edn",
+            "Cienfuegos",
+            "Matanzas",
+            "Santa Clara",
+            "Bayamo",
+            "Guant\u00e1namo",
+            "Trinidad",
+            "Ciego de \u00c1vila",
+            "Las Tunas",
+            "Baracoa",
+            "Manzanillo",
+            "Banes"
+        ],
+        "description": "Cuba\u2019s strategic position in the Caribbean made it a keystone of Spanish imperial defense and commerce. From the sixteenth century, plantations produced sugar with enslaved African labor, while Havana served as a fortified port for treasure fleets. Nineteenth-century wars of independence, including the Ten Years\u2019 War and the 1895 rising led by Jos\u00e9 Mart\u00ed\u2019s movement, culminated in the Spanish\u2013American War of 1898. The island became formally independent in 1902 under strong U.S. influence. Political instability and the Batista regime preceded the 1959 Revolution. Fidel Castro\u2019s government nationalized industries, restructured landholding, and aligned with the Soviet bloc. The Bay of Pigs invasion in 1961 and the 1962 missile crisis fixed Cuba in Cold War geopolitics. After the USSR\u2019s collapse, a prolonged \u201cSpecial Period\u201d followed. Health, education, and cultural policies coexisted with emigration, rationing, and an evolving tourism economy."
+    },
+    {
+        "name": "Mexico",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "America"
+            }
+        ],
+        "cities": [
+            "Tenochtitlan",
+            "Guadalajara",
+            "Monterrey",
+            "Puebla",
+            "M\u00e9rida",
+            "Quer\u00e9taro",
+            "Campeche",
+            "Tlaxcala",
+            "Tula",
+            "Texcoco",
+            "Pachuca",
+            "Tikal",
+            "San Lorenzo",
+            "La Venta",
+            "Tres Zapotes"
+        ],
+        "description": "Mexico spans ancient Mesoamerican civilizations and a long colonial order. The Olmecs built ceremonial centers at San Lorenzo, La Venta, and Tres Zapotes, influencing later traditions. The Aztec capital Tenochtitlan dominated central Mexico until the Spanish conquest of 1519\u20131521. As the Viceroyalty of New Spain, the region produced silver from Zacatecas and Guanajuato and developed cities such as Puebla and Guadalajara, linked by mission frontiers and indigenous labor systems. Independence in 1821 ushered in decades of conflict, foreign intervention, and reform. The U.S.\u2013Mexican War ceded northern territories. Liberal laws dismantled corporate privileges and reshaped landholding. The Porfiriato promoted railways and exports yet widened inequality. Revolution from 1910 produced a new constitution, agrarian redistribution, and a central ruling party. Twentieth-century industrialization, oil nationalization in 1938, and urban growth recast society while indigenous communities persisted in diverse regions."
+    },
+    {
+        "name": "USA",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "America"
+            }
+        ],
+        "cities": [
+            "New York",
+            "Washington DC",
+            "Los Angeles",
+            "Santa Fe",
+            "Albuquerque",
+            "El Paso",
+            "Tucson",
+            "Taos",
+            "Gallup",
+            "Window Rock",
+            "Fort Apache",
+            "Mescalero",
+            "Ruidoso",
+            "Las Cruces",
+            "Chinle"
+        ],
+        "description": "The United States originated in thirteen British colonies along the Atlantic seaboard. Independence in 1776 and the Constitution of 1787 created a federal republic. The capital moved to Washington, D.C., while New York City grew into a leading port and financial center. Nineteenth-century expansion carried settlers across the continent via trails such as the Santa Fe route. Conflicts, treaties, and forced removals dispossessed Native nations. Slavery and sectionalism culminated in the Civil War, emancipation, and Reconstruction. Rapid industrialization drew immigrants and fostered urbanization, railroads, and corporate power. Overseas war in 1898 and later conflicts extended global reach. Participation in two world wars and the Cold War established military and economic influence. The civil rights movement and later reforms broadened citizenship. Federal authority, markets, and immigration continued to shape regional societies and politics."
+    },
+    {
+        "name": "Brazil",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Andea"
+            }
+        ],
+        "cities": [
+            "S\u00e3o Paulo",
+            "Rio de Janeiro",
+            "Bras\u00edlia",
+            "Belo Horizonte",
+            "Porto Alegre",
+            "Curitiba",
+            "Asunci\u00f3n",
+            "Foz do Igua\u00e7u",
+            "Niter\u00f3i",
+            "Santar\u00e9m",
+            "Caxias do Sul",
+            "Canoas",
+            "Altamira",
+            "Marab\u00e1",
+            "Campos"
+        ],
+        "description": "Brazil evolved from a Portuguese colony founded after 1500 into a continental state. Sugar plantations on the Atlantic coast relied on enslaved African labor, while Jesuit missions advanced frontier settlement. Gold and diamonds from Minas Gerais transformed the eighteenth-century economy and spurred urban growth. The royal court\u2019s transfer to Rio de Janeiro in 1808 raised Brazil\u2019s status; independence as an empire followed in 1822. Coffee exports, internal migration, and abolition in 1888 prepared the ground for the 1889 republic. The Amazon rubber boom brought short-lived prosperity to the north. Get\u00falio Vargas\u2019s era reorganized labor and industry, and the capital moved to Bras\u00edlia in 1960 as a modernist project. Military rule from 1964 to 1985 pursued growth and infrastructure with repression. Democratic governments expanded social programs while managing commodity cycles and Amazonian development."
+    },
+    {
+        "name": "Chile",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Andea"
+            }
+        ],
+        "cities": [
+            "Santiago",
+            "Valpara\u00edso",
+            "Concepci\u00f3n",
+            "Antofagasta",
+            "Temuco",
+            "Iquique",
+            "Arica",
+            "Valdivia",
+            "Punta Arenas",
+            "Osorno",
+            "Talcahuano",
+            "Copiap\u00f3",
+            "Angol",
+            "Villarrica",
+            "Nueva Imperial"
+        ],
+        "description": "Chile stretches along the Pacific, bounded by the Andes and the Atacama. Spanish colonization founded Santiago and Valpara\u00edso in the sixteenth century, while the Arauco War met persistent Mapuche resistance. Independence in the early nineteenth century established a centralized republic. The nitrate boom of the late nineteenth and early twentieth centuries financed public works and migration to northern pampas. Victory in the War of the Pacific (1879\u20131884) secured coastal and desert territories. Parliamentary politics alternated with executive dominance. The 1970 election of Salvador Allende introduced socialist reforms and polarization. A 1973 military coup led by Augusto Pinochet imposed market restructuring and authoritarian rule. Democratic restoration in 1990 launched truth processes, pension debate, and sustained export growth. Seismic events and water scarcity have regularly shaped infrastructure and regional planning, while Mapuche land claims persist."
+    },
+    {
+        "name": "Colombia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Andea"
+            }
+        ],
+        "cities": [
+            "Bogot\u00e1",
+            "Medell\u00edn",
+            "Cali",
+            "Barranquilla",
+            "Santa Marta",
+            "Popay\u00e1n",
+            "Pasto",
+            "Tunja",
+            "Sogamoso",
+            "Valledupar",
+            "Riohacha",
+            "Tumaco",
+            "Ipiales",
+            "Samaniego",
+            "T\u00faquerres"
+        ],
+        "description": "Colombia spans the Andean cordilleras, Caribbean littoral, and Amazon basin. Pre-Columbian societies included the Muisca in the Eastern Highlands, noted for intricate goldwork and salt trade. Spain incorporated the region into the Viceroyalty of Nueva Granada with Bogot\u00e1 as a major center. Independence campaigns under Sim\u00f3n Bol\u00edvar and Francisco de Paula Santander formed Gran Colombia in 1819, dissolved in 1831. The 19th century saw civil wars and state building. Coffee cultivation expanded after 1870 and reshaped exports and internal migration. The Thousand Days\u2019 War (1899\u20131902) and La Violencia (1948\u20131958) marked prolonged instability. Leftist insurgencies, notably FARC, emerged in the 1960s amid rural inequality. Drug cartels transformed urban and political dynamics in the 1980s\u20131990s. A new constitution in 1991 strengthened democratic institutions and rights. Peace negotiations culminated in a 2016 accord with FARC, followed by demobilization efforts and lingering security challenges. Contemporary Colombia balances hydrocarbons, mining, agriculture, and diversified services."
+    },
+    {
+        "name": "Peru",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Andea"
+            }
+        ],
+        "cities": [
+            "Lima",
+            "Cusco",
+            "Arequipa",
+            "Trujillo",
+            "Machu Picchu",
+            "Nazca",
+            "Ica",
+            "Puno",
+            "Juliaca",
+            "Huacho",
+            "Barranca",
+            "Ollantaytambo",
+            "Supe",
+            "Palpa",
+            "Desaguadero"
+        ],
+        "description": "Peru anchors the central Andes and a long Pacific coast. Pre-Columbian cultures such as the Nazca and Moche produced distinctive ceramics, metallurgy, and geoglyphs. The Inca Empire, centered at Cusco, built an imperial road network and stone architecture at sites like Machu Picchu. Francisco Pizarro\u2019s conquest in the 1530s integrated the region into the Viceroyalty of Peru, with Lima as capital. Silver mining and coerced labor systems underwrote the colonial economy. The T\u00fapac Amaru II rebellion signaled late colonial unrest. Independence arrived through campaigns led by Jos\u00e9 de San Mart\u00edn and Sim\u00f3n Bol\u00edvar, culminating at Ayacucho in 1824. The 19th century was marked by guano revenues and defeat in the War of the Pacific (1879\u20131884). The 20th century brought land reforms, military rule, and the Shining Path insurgency with heavy civilian tolls. Since the 1990s, constitutional change, mining investment, and social programs have reshaped politics and development amid recurring crises."
+    },
+    {
+        "name": "China",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Asia"
+            }
+        ],
+        "cities": [
+            "Beijing",
+            "Shanghai",
+            "Chang\u2019an",
+            "Guangzhou",
+            "Shenzhen",
+            "Nanjing",
+            "Chengdu",
+            "Hangzhou",
+            "Tianjin",
+            "Shenyang",
+            "Harbin",
+            "Suzhou",
+            "Zhengzhou",
+            "Luoyang",
+            "Anyang"
+        ],
+        "description": "China is a continuous civilizational state with recurrent imperial consolidation. The Qin unified warring states in 221 BCE and introduced legal-administrative standardization. The Han expanded territory and fostered Silk Road exchange. The Tang presided over cosmopolitan capitals and literary achievement. Song-era innovation advanced printing, gunpowder, and maritime navigation. Yuan rule integrated steppe and agrarian domains. The Ming rebuilt state capacity, sent Zheng He\u2019s fleets, and reinforced the Great Wall. The Qing expanded to Inner Asia but faced 19th-century crises, including the Opium Wars and internal rebellions. The 1911 revolution ended the monarchy. The People\u2019s Republic, founded in 1949, pursued socialist transformation, mass campaigns, and later economic reform. Post-1978 policies opened markets, accelerated urbanization, and created global manufacturing and technology sectors. Continuities endure in bureaucratic governance and written culture."
+    },
+    {
+        "name": "India",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Asia"
+            }
+        ],
+        "cities": [
+            "Delhi",
+            "Mumbai",
+            "Pataliputra",
+            "Kolkata",
+            "Bengaluru",
+            "Agra",
+            "Lahore",
+            "Harappa",
+            "Mohenjo-daro",
+            "Mathura",
+            "Ujjain",
+            "Taxila",
+            "Prayagraj",
+            "Kanauj",
+            "Lothal"
+        ],
+        "description": "India\u2019s historical core spans the subcontinent\u2019s river plains, plateaus, and coasts. The Indus Valley Civilization developed planned cities and long-distance trade. Vedic polities evolved into regional monarchies. The Maurya Empire unified much of the subcontinent; Ashoka promoted Buddhism and imperial edicts. The Gupta era saw advances in mathematics, astronomy, and classical arts. From the 13th century, Delhi Sultanates introduced new political orders and urban cultures. The Mughal Empire built monumental architecture and centralized administration, later challenged by regional powers such as the Marathas. European trading companies gained footholds; British rule followed the 1857 uprising. Nationalist movements mobilized mass politics under leaders including Gandhi and Nehru. Independence and Partition in 1947 created India and Pakistan, with major displacement and conflict. The republic adopted a democratic constitution, pursued mixed economic planning, then liberalization after 1991. Contemporary India combines rapid growth with enduring regional and social complexities."
+    },
+    {
+        "name": "Japan",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Asia"
+            }
+        ],
+        "cities": [
+            "Tokyo",
+            "Kyoto",
+            "Osaka",
+            "Yokohama",
+            "Nagoya",
+            "Hiroshima",
+            "Sapporo",
+            "Fukuoka",
+            "Sendai",
+            "Kitakyushu",
+            "Kumamoto",
+            "Nara",
+            "Aomori",
+            "Hakodate",
+            "Kobe"
+        ],
+        "description": "Japan\u2019s history moves from early court states to military governments and modern nationhood. Nara and Heian periods established imperial ritual, writing, and Buddhism. The Kamakura shogunate introduced samurai rule and new religious currents. Later Muromachi and Sengoku eras saw civil war and cultural innovation. The Tokugawa shogunate unified domains, regulated social orders, and restricted foreign contact. The 1868 Meiji Restoration dismantled feudal structures, adopted Western institutions, and industrialized. By 1905 Japan had defeated Russia and joined imperial competition in East Asia. Militarization and total war in the 1930s\u20131945 ended with atomic bombings and occupation. A postwar constitution limited armed force and expanded civil rights. High-growth decades transformed industry and urban life. Contemporary Japan maintains advanced technology, a major economy, and a complex security posture."
+    },
+    {
+        "name": "Siam",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Asia"
+            }
+        ],
+        "cities": [
+            "Bangkok",
+            "Chiang Mai",
+            "Ayutthaya",
+            "Sukhothai",
+            "Lopburi",
+            "Pattaya",
+            "Khon Kaen",
+            "Udon Thani",
+            "Nakhon Sawan",
+            "Phitsanulok",
+            "Suphan Buri",
+            "Thonburi",
+            "Si Satchanalai",
+            "Kamphaeng Phet",
+            "Nong Han"
+        ],
+        "description": "Siam, centered on the Chao Phraya basin, sustained continuous monarchy and adaptive statecraft. The Ayutthaya Kingdom dominated mainland trade and warfare until its fall in 1767. Thonburi rule restored unity, followed by the Chakri dynasty and the Rattanakosin era with Bangkok as capital. In the 19th century, kings Mongkut (Rama IV) and Chulalongkorn (Rama V) pursued legal reform, education, and administrative centralization. Treaties with Britain and France opened commerce and secured survival between empires. The 1932 revolution created a constitutional monarchy. World War II brought alliance with Japan and subsequent realignment. Cold War development programs expanded infrastructure and bureaucracy. The state adopted the name Thailand in 1939 and again after 1949. Periodic coups and constitutions have shaped modern governance, while the monarchy retained ceremonial roles and served as a focal point for national cohesion."
+    },
+    {
+        "name": "Britain",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Europe"
+            }
+        ],
+        "cities": [
+            "London",
+            "Manchester",
+            "Birmingham",
+            "Liverpool",
+            "York",
+            "Oxford",
+            "Nottingham",
+            "Leeds",
+            "Canterbury",
+            "Durham",
+            "Winchester",
+            "Norwich",
+            "Colchester",
+            "Ipswich",
+            "Newcastle"
+        ],
+        "description": "Britain formed from medieval kingdoms on an island at Europe\u2019s Atlantic edge. The Norman Conquest reshaped aristocracy and law. Parliament emerged as a durable institution. The 1707 union with Scotland created Great Britain; Ireland joined in 1801, later partitioned. The Industrial Revolution began in textiles and steam power, driving urbanization and global trade. Naval strength supported an empire on multiple continents. Britain fought France in the Napoleonic era and both World Wars. The 20th century brought suffrage expansion, welfare-state institutions, and decolonization. Postwar reconstruction, deindustrialization, and service-led restructuring followed. The United Kingdom joined the European Communities in 1973 and left the European Union in 2020 after a 2016 referendum. Contemporary Britain retains global finance, science, and cultural industries alongside regional disparities."
+    },
+    {
+        "name": "France",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Europe"
+            }
+        ],
+        "cities": [
+            "Paris",
+            "Lyon",
+            "Marseille",
+            "Bordeaux",
+            "Toulouse",
+            "Nice",
+            "Nantes",
+            "Lille",
+            "Strasbourg",
+            "Reims",
+            "Orl\u00e9ans",
+            "Metz",
+            "Aachen",
+            "Clermont-Ferrand",
+            "Bourges"
+        ],
+        "description": "France consolidated from Frankish and Capetian cores into a centralized kingdom. The Hundred Years\u2019 War forged royal authority and territorial integrity. Renaissance courts and religious conflict shaped the 16th century. Bourbon absolutism built fiscal and military capacity. The 1789 Revolution transformed law, citizenship, and church-state relations. Napoleon\u2019s empire spread civil codes and reconfigured Europe before defeat. The 19th century alternated between monarchy and republic, while overseas expansion created a vast colonial empire. France suffered heavy losses in World War I and occupation in World War II. The Liberation and Charles de Gaulle\u2019s Fifth Republic in 1958 restored executive stability. Decolonization, notably in Algeria and Indochina, recast global ties. Contemporary France is a nuclear power, EU founder, and cultural center grounded in republican institutions."
+    },
+    {
+        "name": "Germany",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Europe"
+            }
+        ],
+        "cities": [
+            "Berlin",
+            "Munich",
+            "Frankfurt",
+            "Hamburg",
+            "Cologne",
+            "Stuttgart",
+            "Bremen",
+            "Dresden",
+            "Leipzig",
+            "L\u00fcbeck",
+            "Mainz",
+            "Magdeburg",
+            "Trier",
+            "K\u00f6nigsberg",
+            "Stettin"
+        ],
+        "description": "Germany emerged as a nation-state in 1871 under Prussian leadership after wars of unification. Rapid industrialization created heavy industry, science, and urban growth. Imperial institutions and rivalry contributed to World War I and the collapse of the monarchy. The Weimar Republic faced inflation, political violence, and cultural ferment. The Nazi regime built a dictatorship, pursued expansion, and perpetrated the Holocaust. Defeat in 1945 led to occupation and division into the Federal Republic and the German Democratic Republic. The Berlin Wall stood as a stark marker of Cold War separation from 1961 to 1989. Reunification in 1990 integrated institutions and economies. Germany became a leading economy within the European Union, committed to parliamentary democracy and federalism. Energy transitions, demographic change, and memory culture frame current policy debates."
+    },
+    {
+        "name": "Yugoslavia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Europe"
+            }
+        ],
+        "cities": [
+            "Belgrade",
+            "Zagreb",
+            "Sarajevo",
+            "Sofia",
+            "Skopje",
+            "Podgorica",
+            "Novi Sad",
+            "Varna",
+            "Plovdiv",
+            "Ni\u0161",
+            "Ohrid",
+            "Pristina",
+            "Veliko Tarnovo",
+            "Kragujevac",
+            "Cetinje"
+        ],
+        "description": "Yugoslavia formed in 1918 as the Kingdom of Serbs, Croats, and Slovenes, uniting South Slavic lands after the Habsburg and Ottoman collapses. Centralization and ethnic tensions marked the interwar period. Axis invasion in 1941 led to partisan resistance under Josip Broz Tito and civil conflict. After 1945, the Socialist Federal Republic adopted workers\u2019 self-management and pursued an independent line within the Non-Aligned Movement. Economic growth alternated with debt crises, while republican autonomy tempered central power. Tito\u2019s death in 1980 exposed institutional strains. From 1991, secession and war fractured the federation, with conflicts in Slovenia, Croatia, Bosnia and Herzegovina, and later Kosovo. Successor states emerged through negotiated settlements and international intervention. Serbia and Montenegro separated in 2006. The region continues integration with European institutions while addressing wartime legacies."
+    },
+    {
+        "name": "Egypt",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Levantica"
+            }
+        ],
+        "cities": [
+            "Cairo",
+            "Thebes",
+            "Alexandria",
+            "Giza",
+            "Memphis",
+            "Aswan",
+            "Port Said",
+            "Suez",
+            "Heliopolis",
+            "Rosetta",
+            "Fayoum",
+            "Minya",
+            "Damietta",
+            "Beni Suef",
+            "Sharm El-Sheikh"
+        ],
+        "description": "Egypt formed along the Nile River, where annual floods sustained intensive agriculture and dense settlement. Early dynastic and Old Kingdom rulers developed centralized kingship and monumental funerary complexes, including the pyramids. Middle Kingdom administrations extended irrigation works and provincial control. The New Kingdom projected power into Nubia and the Levant and built large temple estates. Writing systems, priestly institutions, and a tax-bureaucratic apparatus supported state extraction and cults. After Late Period fragmentation, Alexander\u2019s conquest brought Ptolemaic rule and the scholarly city of Alexandria. Rome annexed Egypt as a grain and papyrus source under tight imperial oversight; Byzantine administration followed. The Arab conquest integrated Egypt into Islamic polities, with Fustat and later Cairo as political centers. Fatimid, Ayyubid, and Mamluk regimes managed caravan and Mediterranean trade. Ottoman governance persisted until the 19th century, when reforms and British occupation preceded modern state formation."
+    },
+    {
+        "name": "Iran",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Levantica"
+            }
+        ],
+        "cities": [
+            "Tehran",
+            "Isfahan",
+            "Persepolis",
+            "Shiraz",
+            "Mashhad",
+            "Tabriz",
+            "Susa",
+            "Ctesiphon",
+            "Pasargadae",
+            "Ecbatana",
+            "Nishapur",
+            "Qazvin",
+            "Kerman",
+            "Anshan",
+            "Shahr-i Sokhta"
+        ],
+        "description": "Iran\u2019s plateau anchored successive Persian empires that linked Central Asia, Mesopotamia, and the Indus. The Achaemenids created a multiethnic empire administered through satrapies, royal roads, and archives at Persepolis. Zoroastrian institutions and court ritual underpinned kingship. Parthian horse-archer warfare and diplomacy balanced Rome along Mesopotamian frontiers. The Sasanian state reformed taxation, codified Zoroastrian law, and fostered urban commerce tied to Silk Road routes. After the Arab conquest, Persian elites and scholars shaped Islamic administration, literature, and science; New Persian became a court and literary language. Dynastic cycles produced Persianate courts from Transoxiana to the Deccan. The Safavids established Twelver Shi\u2018ism and built an Iranian state centered on Isfahan. Later Qajar and Pahlavi periods navigated imperial pressures, fiscal reforms, and modernization. Iran\u2019s historical role rests on imperial governance, transcontinental trade, and a durable literary-bureaucratic tradition."
+    },
+    {
+        "name": "Iraq",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Levantica"
+            }
+        ],
+        "cities": [
+            "Baghdad",
+            "Babylon",
+            "Basra",
+            "Mosul",
+            "Nineveh",
+            "Ur",
+            "Uruk",
+            "Erbil",
+            "Kirkuk",
+            "Karbala",
+            "Najaf",
+            "Hillah",
+            "Akkad",
+            "Fallujah",
+            "Eridu"
+        ],
+        "description": "Iraq encompasses Mesopotamia, where the Tigris and Euphrates supported irrigated agriculture and early urbanism. Sumerian city-states such as Uruk developed cuneiform writing, temple economies, and bureaucratic practices. The Akkadian and Babylonian empires consolidated territories and legal codification, including Hammurabi\u2019s law. Assyrian capitals at Nineveh and Ashur directed militarized expansion and provincial administration. Neo-Babylonian renewal ended with Achaemenid, then Seleucid and Parthian control. The Islamic conquests created new centers, and the Abbasids founded Baghdad in 762 as a hub for commerce, translation, and scientific inquiry. The Mongol sack in 1258 damaged irrigation networks and urban life. Ottoman provincial rule alternated with tribal autonomy and local households. British mandate arrangements after World War I led to the modern Iraqi state. Across millennia, canal building, land tenure, and palace-temple complexes underwrote dense populations and recurring imperial capitals."
+    },
+    {
+        "name": "Syria",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Levantica"
+            }
+        ],
+        "cities": [
+            "Damascus",
+            "Aleppo",
+            "Antioch",
+            "Palmyra",
+            "Homs",
+            "Hama",
+            "Latakia",
+            "Raqqa",
+            "Idlib",
+            "Deir ez-Zor",
+            "Qamishli",
+            "Mari",
+            "Ebla",
+            "Apamea",
+            "Dura-Europos"
+        ],
+        "description": "Syria lies at the junction of Anatolia, Mesopotamia, and the Mediterranean. Early Bronze Age cities such as Ebla and Mari managed archives, trade, and diplomacy. Successive empires\u2014Hittite, Assyrian, Babylonian, and Achaemenid\u2014contested the region\u2019s corridors. Hellenistic rule centered major cities like Antioch; Roman and Byzantine periods integrated coastal ports and caravan hubs, including Palmyra. The Umayyad caliphs made Damascus their capital, building administrative and religious monuments. Crusader principalities and Ayyubid-Zengid polities shaped medieval frontiers. Mamluk and then Ottoman governance maintained urban markets and pilgrimage routes. Long-distance trade linked Aleppo and other cities to Anatolian, Mesopotamian, and Mediterranean circuits. The modern era introduced new boundaries and mandates after World War I. Throughout, Syria\u2019s strategic position fostered urban cosmopolitanism, mixed confessional communities, and repeated imperial competition."
+    },
+    {
+        "name": "Greece",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Mediterra"
+            }
+        ],
+        "cities": [
+            "Athens",
+            "Sparta",
+            "Corinth",
+            "Thessaloniki",
+            "Constantinople",
+            "Piraeus",
+            "Heraklion",
+            "Rhodes",
+            "Patras",
+            "Larissa",
+            "Knossos",
+            "Ioannina",
+            "Kavala",
+            "Malia",
+            "Phaistos"
+        ],
+        "description": "Greece developed as a landscape of poleis that built maritime networks and colonial settlements. Archaic and Classical eras saw codified law, hoplite warfare, and civic institutions. Athens advanced democracy, philosophy, drama, and a naval league; Sparta maintained a militarized order in the Peloponnese. Conflicts with Persia and the Peloponnesian War reshaped regional power. Macedon\u2019s rise under Philip II and Alexander produced conquests that spread Greek language and institutions across the Near East. Hellenistic kingdoms fostered scholarship and urbanism in Alexandria, Pergamon, and other centers. Rome incorporated Greek cities while Greek culture informed Roman education and arts. Late Antique and Byzantine traditions continued Greek literary and theological production around Constantinople and monastic centers. Over time, Greek commerce, shipbuilding, and diaspora communities sustained Mediterranean linkages alongside enduring classical legacies in philosophy and political thought."
+    },
+    {
+        "name": "Italy",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Mediterra"
+            }
+        ],
+        "cities": [
+            "Rome",
+            "Milan",
+            "Naples",
+            "Venice",
+            "Florence",
+            "Turin",
+            "Genoa",
+            "Bologna",
+            "Verona",
+            "Pompeii",
+            "Ostia",
+            "Pavia",
+            "Tarquinia",
+            "Cerveteri",
+            "Veii"
+        ],
+        "description": "Italy\u2019s peninsula fostered the Roman Republic and Empire, which developed codified law, a professional army, provincial administration, and road networks linking the Mediterranean. Rome\u2019s expansion brought urbanization, aqueducts, and Latin culture across Europe and North Africa. After imperial fragmentation, medieval Italy saw communes, maritime republics such as Venice and Genoa, and the Papal States. Banking, notarial practice, and merchant capitalism flourished in city-states. The Renaissance centered on Florence and other courts, advancing humanism, art, and technical treatises. Italian printers, architects, and engineers circulated across Europe. Foreign dynasties and shifting alliances marked early modern politics. Unification in the 19th century formed the Kingdom of Italy under Piedmontese leadership. Italy\u2019s historical influence rests on Roman legal-administrative models and Renaissance arts, finance, and urban culture that shaped European institutions."
+    },
+    {
+        "name": "Spain",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Mediterra"
+            }
+        ],
+        "cities": [
+            "Madrid",
+            "Barcelona",
+            "Seville",
+            "Valencia",
+            "Bilbao",
+            "Zaragoza",
+            "Toledo",
+            "M\u00e1laga",
+            "C\u00e1diz",
+            "Cartagena",
+            "Valladolid",
+            "Burgos",
+            "Salamanca",
+            "Segovia",
+            "Huelva"
+        ],
+        "description": "Spain\u2019s history joined Iberian, Roman, and Visigothic layers with Islamic al-Andalus after the 8th century. Andalusi cities such as C\u00f3rdoba and Seville sustained scholarship, irrigation agriculture, and artisanal production. Christian kingdoms advanced the Reconquista, culminating in the union of Castile and Aragon and the conquest of Granada in 1492. Overseas expansion followed, using Atlantic navigation, royal councils, and colonial viceroyalties to govern American territories. Silver from Potos\u00ed and Mexican mines financed Habsburg campaigns and European diplomacy. The Bourbon reforms sought fiscal centralization and administrative efficiency. Decline of colonial power in the 19th century and internal conflict reshaped the state. The 20th century witnessed civil war, dictatorship, and later constitutional monarchy. Across eras, Spain integrated Mediterranean and Atlantic circuits, combining frontier warfare, court bureaucracy, and global commerce."
+    },
+    {
+        "name": "Tunisia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Mediterra"
+            }
+        ],
+        "cities": [
+            "Tunis",
+            "Carthage",
+            "Sousse",
+            "Kairouan",
+            "Sfax",
+            "Bizerte",
+            "Monastir",
+            "Gab\u00e8s",
+            "Nabeul",
+            "Mahdia",
+            "Ariana",
+            "Utica",
+            "Kerkouane",
+            "Gafsa",
+            "Hadrumetum"
+        ],
+        "description": "Tunisia\u2019s coast hosted Carthage, a Phoenician-founded maritime power that built a western Mediterranean trading system and contested Rome in the Punic Wars. After Roman conquest, Africa Proconsularis became a major grain exporter with Romanized cities and roads. Vandal and Byzantine periods preceded the Arab conquest, which established Kairouan as a religious and administrative center. The Aghlabids and later Hafsids maintained trans-Saharan and Mediterranean trade, patronizing mosques and madrasas. Under Ottoman suzerainty, the Regency of Tunis balanced corsair activity, local elites, and diplomacy. French protectorate rule from 1881 introduced new infrastructure and colonial administration. Independent Tunisia emerged in the 20th century. Over time, port cities, olive cultivation, and caravan routes tied Tunisia to wider regional economies and imperial systems."
+    },
+    {
+        "name": "Indonesia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Oceania"
+            }
+        ],
+        "cities": [
+            "Jakarta",
+            "Surabaya",
+            "Bandung",
+            "Medan",
+            "Palembang",
+            "Yogyakarta",
+            "Semarang",
+            "Bogor",
+            "Malang",
+            "Denpasar",
+            "Padang",
+            "Pekanbaru",
+            "Banda Aceh",
+            "Jambi",
+            "Bekasi"
+        ],
+        "description": "Indonesia\u2019s archipelago nurtured maritime polities that mediated Indian Ocean and South China Sea trade. Srivijaya, centered on Sumatra, controlled choke points and supported Buddhist institutions. Java\u2019s Majapahit forged a thalassocracy influencing commerce and court culture across island Southeast Asia. Islam spread through port communities and sultanates such as Demak, Banten, and Aceh. The Dutch East India Company established fortified ports, monopolies, and tributary alliances; the later colonial state expanded plantation agriculture and the Cultivation System. Resistance, Islamic and nationalist organizations, and educated elites challenged colonial rule. The Japanese occupation disrupted European control and armed local forces. Independence in 1945 followed conflict and diplomacy. Indonesia\u2019s historical trajectory reflects monsoon navigation, spice commerce, and layered polities that integrated local courts with global trade networks."
+    },
+    {
+        "name": "Polynesia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Oceania"
+            }
+        ],
+        "cities": [
+            "Auckland",
+            "Wellington",
+            "Suva",
+            "Papeete",
+            "Apia",
+            "Rotorua",
+            "Napier",
+            "Hamilton",
+            "Tongatapu",
+            "Upolu",
+            "Efate",
+            "Bora Bora",
+            "Moorea",
+            "Pago Pago",
+            "Savai\u2018i"
+        ],
+        "description": "Polynesia spans a vast Pacific triangle settled by Austronesian voyagers using star paths, swells, and double-hulled canoes. Lapita communities spread pottery traditions and horticulture, then diversified into island-specific adaptations. Chiefdoms developed hierarchical lineages, ritualized exchange, and large-scale religious structures, seen in Tonga and Samoa. In Hawaii and Aotearoa New Zealand, complex agriculture and monumental building marked later state formation. Long-distance voyaging maintained kin ties and resource exchange across archipelagos. European contact brought missionaries, firearms, disease, and new political arrangements, including protectorates and colonization by Britain, France, and others. Despite external rule, navigation knowledge and cultural practice persisted and later revived. Polynesia\u2019s history centers on seafaring technologies, stratified societies, and environmental management across dispersed islands."
+    },
+    {
+        "name": "Sri Lanka",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Oceania"
+            }
+        ],
+        "cities": [
+            "Colombo",
+            "Kandy",
+            "Anuradhapura",
+            "Galle",
+            "Jaffna",
+            "Polonnaruwa",
+            "Negombo",
+            "Trincomalee",
+            "Ratnapura",
+            "Kurunegala",
+            "Dambulla",
+            "Sigiriya",
+            "Batticaloa",
+            "Matale",
+            "Mihintale"
+        ],
+        "description": "An island in the Indian Ocean with early urbanization at Anuradhapura by the 4th century BCE. A hydraulic civilization developed large tanks and canals for rice agriculture. Theravada Buddhism spread in the 3rd century BCE under Devanampiya Tissa, and monastic centers preserved the Pali canon. After Chola incursions, Polonnaruwa rose, with Parakramabahu I consolidating rule. Maritime trade connected the island to wider Indian Ocean networks. Kandy maintained highland autonomy after coastal polities fell to Europeans. The Portuguese arrived in 1505 and controlled ports; the Dutch displaced them in the 17th century. Britain unified the island in 1815 as Ceylon. Plantation coffee, then tea, reshaped economy and landscapes. Independence came in 1948. Postcolonial politics saw language disputes and ethnic polarization. Civil war between the state and the LTTE lasted from 1983 to 2009. Archaeological heritage includes stupas, cave temples, and Sigiriya."
+    },
+    {
+        "name": "Vietnam",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Oceania"
+            }
+        ],
+        "cities": [
+            "Hanoi",
+            "Saigon",
+            "Da Nang",
+            "Hue",
+            "Haiphong",
+            "Nha Trang",
+            "Can Tho",
+            "Qu\u1ea3ng Ninh",
+            "Bac Ninh",
+            "Thanh H\u00f3a",
+            "Nam \u0110\u1ecbnh",
+            "Th\u00e1i B\u00ecnh",
+            "Vinh",
+            "Da Lat",
+            "Hai Duong"
+        ],
+        "description": "A region centered on the Red River and Mekong deltas. Early states of V\u0103n Lang and \u00c2u L\u1ea1c preceded Chinese imperial control. Independence returned in the 10th century with \u0110\u1ea1i C\u1ed3 Vi\u1ec7t. L\u00fd and Tr\u1ea7n dynasties built Confucian institutions and expanded wet-rice cultivation. Victories over Mongol invasions in the 13th century secured autonomy. Champa along the central coast engaged in trade, warfare, and cultural exchange. The L\u00ea restored centralized rule and examination systems. The T\u00e2y S\u01a1n uprising in the late 18th century shattered lordly power and set the stage for Nguyen reunification. French conquest in the 19th century created Indochina and plantation economies. Anti-colonial movements drew on nationalism and communism. The August Revolution of 1945 proclaimed independence under H\u1ed3 Ch\u00ed Minh. The First and Second Indochina Wars reshaped state structures and society. Saigon fell in 1975; reunification followed in 1976. \u0110\u1ed5i M\u1edbi reforms began in 1986 and integrated the country into global markets."
+    },
+    {
+        "name": "Mongolia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Siberia"
+            }
+        ],
+        "cities": [
+            "Ulaanbaatar",
+            "Karakorum",
+            "Erdenet",
+            "Darkhan",
+            "Choibalsan",
+            "Khovd",
+            "Olgii",
+            "Uliastai",
+            "M\u00f6r\u00f6n",
+            "Bayankhongor",
+            "Tsetserleg",
+            "Sainshand",
+            "Dalanzadgad",
+            "Kharkhorin",
+            "Bulgan"
+        ],
+        "description": "Homeland of steppe pastoral nomads. Tem\u00fcjin unified tribes and took the title Genghis Khan in 1206. Mongol cavalry and decimal organization forged a transcontinental empire. Successor states included the Yuan in China, the Golden Horde, and the Chagatai realm. Trade and envoys moved along Silk Road corridors under a period of relative peace. After the Yuan collapse, Mongol polities fragmented on the steppe. Oirat and Khalkha groups dominated later history. Qing rule incorporated Outer Mongolia in the 17th century. Independence was declared in 1911 and restored with Soviet support in 1921. The Mongolian People\u2019s Republic pursued collectivization and one-party governance. Buddhism and monasteries faced heavy repression in the 1930s. A peaceful transition in 1990 produced a multi-party republic and market reforms. Pastoralism, mining, and transborder trade define the economy. Ulaanbaatar serves as the modern political and cultural center."
+    },
+    {
+        "name": "Tibet",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Siberia"
+            }
+        ],
+        "cities": [
+            "Lhasa",
+            "Shigatse",
+            "Chamdo",
+            "Nyingchi",
+            "Nagqu",
+            "Gyantse",
+            "Tsetang",
+            "Shannan",
+            "Ngari",
+            "Guge",
+            "Tsaparang",
+            "Lhoka",
+            "Nedong",
+            "Mount Kailash",
+            "Lhatse"
+        ],
+        "description": "A high plateau region organized early under the Yarlung dynasty. Songtsen Gampo built a powerful empire in the 7th century that reached Central Asia. Buddhism entered in waves and gained institutional strength after the 10th century. Monastic schools, including Kadam, Sakya, Kagyu, and Gelug, shaped culture and politics. Mongol patronage in the 13th century established clerical authority under Sakya hierarchs. Later, the Gelug school and the Dalai Lamas led a theocratic state from Lhasa. The Potala Palace became the main administrative and ritual complex. Qing emperors exerted varying oversight from the 18th century. The economy centered on pastoralism, caravan trade, and monastic estates. In 1950 the People\u2019s Republic of China asserted control. Uprisings and diaspora followed. Tibetan Buddhism spread abroad through exiled communities and teaching networks. The plateau remains a key cultural zone within Inner Asia."
+    },
+    {
+        "name": "Turkey",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Siberia"
+            }
+        ],
+        "cities": [
+            "Istanbul",
+            "Ankara",
+            "Izmir",
+            "Bursa",
+            "Antalya",
+            "Konya",
+            "Kayseri",
+            "Trabzon",
+            "Sivas",
+            "Edirne",
+            "\u00c7orum",
+            "Amasya",
+            "Sinop",
+            "Hattusa",
+            "Alaca H\u00f6y\u00fck"
+        ],
+        "description": "Anatolia has hosted layered civilizations. The Hittite Empire ruled from Hattusa in the Late Bronze Age. Greek and Persian spheres overlapped in classical eras. Byzantium, later Constantinople, anchored an eastern Roman state for a millennium. Turkic migrations brought Seljuks and later Anatolian beyliks. The Ottomans emerged in the 14th century and took Constantinople in 1453. Their empire spanned the Balkans, Anatolia, the Levant, and North Africa. Institutions included the devshirme, Janissaries, and timar systems. The 19th century saw reform and contraction. After World War I and the War of Independence, the Republic of Turkey formed in 1923. Mustafa Kemal Atat\u00fcrk pursued secular law, Latin script, and state-led modernization. Postwar politics balanced multiparty competition, military interventions, and development. Istanbul and Anatolian cities remained strategic nodes linking Europe and Asia."
+    },
+    {
+        "name": "Uzbekistan",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Siberia"
+            }
+        ],
+        "cities": [
+            "Tashkent",
+            "Samarkand",
+            "Bukhara",
+            "Khiva",
+            "Fergana",
+            "Andijan",
+            "Namangan",
+            "Kokand",
+            "Nukus",
+            "Termez",
+            "Shahrisabz",
+            "Balkh",
+            "Urgench",
+            "Margilan",
+            "Karshi"
+        ],
+        "description": "A Central Asian heartland with ancient oasis cities. Sogdian merchants carried Silk Road trade across deserts and mountains. Islam spread after the Arab conquests, and Persianate culture flourished under the Samanids. The Mongols conquered in the 13th century, followed by Timurid ascendancy from Samarkand in the 14th century. Timur\u2019s heirs patronized architecture, science, and arts; Ulugh Beg\u2019s observatory advanced astronomy. Early modern power shifted to the khanates of Bukhara, Khiva, and Kokand. Russian imperial expansion in the 19th century brought conquest, railways, and new administration. Soviet rule created the Uzbek SSR and a cotton-based command economy. Irrigation projects reshaped rivers and harmed the Aral Sea. Urban centers such as Samarkand and Bukhara preserved Islamic monuments and madrasas. Independence in 1991 opened a phase of state-building, controlled political transitions, and economic diversification. The country remains a key crossroads in Central Asian transport and energy networks."
+    },
+    {
+        "name": "Poland",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Taiga"
+            }
+        ],
+        "cities": [
+            "Warsaw",
+            "Krak\u00f3w",
+            "Gda\u0144sk",
+            "Wroc\u0142aw",
+            "Pozna\u0144",
+            "\u0141\u00f3d\u017a",
+            "Kielce",
+            "Katowice",
+            "Lublin",
+            "Bydgoszcz",
+            "Gniezno",
+            "Toru\u0144",
+            "Bia\u0142ystok",
+            "Rzesz\u00f3w",
+            "Olsztyn"
+        ],
+        "description": "Polish statehood emerged under the Piast dynasty in the 10th century, adopting Latin Christianity. The Jagiellonian union with Lithuania produced a federative Commonwealth in 1569. Its elective monarchy and noble liberties created a distinctive political order. Cultural life prospered, yet factionalism hindered reform. The late 18th century brought three partitions by Russia, Prussia, and Austria. The nation persisted through uprisings and \u00e9migr\u00e9 activism. Independence returned in 1918 as the Second Republic, followed by war with Soviet Russia. German and Soviet invasions in 1939 erased the state. Occupation brought mass terror, resistance, and the Warsaw Uprising. Postwar borders shifted west, and a socialist republic aligned with Moscow took shape. The Solidarity movement in the 1980s catalyzed negotiated transition in 1989. A democratic state pursued integration with NATO and the European Union. Scholarship and memory institutions address a complex republican and martyrological past."
+    },
+    {
+        "name": "Russia",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Taiga"
+            }
+        ],
+        "cities": [
+            "Moscow",
+            "Saint Petersburg",
+            "Novosibirsk",
+            "Kazan",
+            "Yekaterinburg",
+            "Nizhny Novgorod",
+            "Volgograd",
+            "Novgorod",
+            "Smolensk",
+            "Pskov",
+            "Tver",
+            "Vladimir",
+            "Belgorod",
+            "Chernihiv",
+            "Cherkasy"
+        ],
+        "description": "Origins trace to East Slavic polities of Kievan Rus\u2019. Christianity from Byzantium in 988 framed legal and literary traditions. Mongol domination in the 13th century redirected power to Muscovy. Ivan IV centralized rule and pushed east into Siberia. The Romanov dynasty expanded across Eurasia and built a multiethnic empire. Peter the Great reformed administration and founded Saint Petersburg. Catherine II extended influence in the Black Sea and partitioned Poland. Serfdom\u2019s abolition in 1861 preceded industrialization and social unrest. The 1917 revolutions toppled the monarchy and produced Bolshevik power. The USSR undertook collectivization, planned industry, and wartime mobilization against Nazi Germany. Postwar status as a superpower shaped the Cold War. The Soviet Union dissolved in 1991, creating the Russian Federation. Recent decades combined centralized presidential power, a resource-driven economy, and renewed military activity."
+    },
+    {
+        "name": "Scotland",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Taiga"
+            }
+        ],
+        "cities": [
+            "Edinburgh",
+            "Glasgow",
+            "Aberdeen",
+            "Dundee",
+            "Inverness",
+            "Stirling",
+            "Perth",
+            "Paisley",
+            "Ayr",
+            "Dumfries",
+            "Elgin",
+            "Forres",
+            "Inverclyde",
+            "Falkirk",
+            "Kilmarnock"
+        ],
+        "description": "Historic communities of Picts, Gaels, and Britons formed early polities. Kingdoms consolidated under Alba in the medieval era. Wars of Independence against England produced figures such as Wallace and Bruce. A distinct legal and educational system grew alongside clan structures. The Reformation advanced Presbyterian institutions. The 1707 Acts of Union joined Scotland and England under one Parliament. Jacobite risings sought a Stuart restoration and ended with Culloden. The Highland Clearances altered landholding and drove migration. The Scottish Enlightenment fostered science, philosophy, and political economy. Industrial centers in the Lowlands specialized in shipbuilding, textiles, and engineering. Cultural revival and administrative devolution renewed national institutions in the late 20th century. A modern parliament in Edinburgh opened in 1999."
+    },
+    {
+        "name": "Sweden",
+        "requires": [
+            {
+                "type": "continent",
+                "name": "Taiga"
+            }
+        ],
+        "cities": [
+            "Stockholm",
+            "Gothenburg",
+            "Malm\u00f6",
+            "Uppsala",
+            "Lund",
+            "V\u00e4ster\u00e5s",
+            "\u00d6rebro",
+            "Helsingborg",
+            "Link\u00f6ping",
+            "Ume\u00e5",
+            "Visby",
+            "Kalmar",
+            "Karlstad",
+            "Sundsvall",
+            "Sigtuna"
+        ],
+        "description": "Sweden emerged from early Scandinavian chiefdoms and Viking-age networks. The Kalmar Union linked the crowns of Denmark, Norway, and Sweden until the 16th century. Gustav Vasa established a hereditary monarchy and Protestant reforms. A centralized state supported fiscal and military innovation. Gustavus Adolphus led campaigns in the Thirty Years\u2019 War, raising Sweden to great-power status. The Great Northern War reversed fortunes and ceded dominance to Russia. Finland\u2019s loss in 1809 narrowed the realm. The 19th century brought neutrality, agrarian reform, and emigration. Industrialization and mass politics produced social welfare measures in the 20th century. Sweden avoided both world wars and pursued international mediation. Contemporary policy emphasizes innovation, export industries, and a developed welfare state."
+    }
+]

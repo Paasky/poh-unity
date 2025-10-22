@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Arctic",
+        "description": "The Arctic Ocean is the smallest and coldest of Earth\u2019s oceans. Sea ice, polar night, and extreme seasonality define its environment. Indigenous peoples developed expert navigation and subsistence hunting across ice and coastal waters. Since the early modern period, European mariners sought a Northwest Passage to Asia; the Franklin expedition (1845) became a touchstone for polar exploration and disaster. In the nineteenth and early twentieth centuries, whaling and sealing expanded into Arctic waters, leaving lasting ecological impacts. During the Cold War, submarines and ice reconnaissance added strategic dimensions. Contemporary science tracks rapid sea\u2011ice loss, permafrost thaw, and shifts in marine food webs. New shipping seasons now open episodically along the Northern Sea Route and the Canadian Arctic Archipelago, raising legal, environmental, and indigenous governance questions. The ocean\u2019s circulation interacts with the Atlantic through gateways like the Fram Strait, affecting global climate systems.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Atlantic",
+        "description": "The Atlantic Ocean links the Americas with Europe and Africa and has framed major historical processes. From the late fifteenth century, explorers such as Columbus and Cabot opened transoceanic routes. Port cities grew around the triangular trade that sustained the transatlantic slave system, moving enslaved Africans, raw materials, and manufactured goods. Rich fisheries, including the Grand Banks, fed European markets and supported maritime communities. Scientific oceanography advanced through cable laying and current mapping in the nineteenth century. In the twentieth century, the Battle of the Atlantic determined the flow of wartime goods and personnel; convoy tactics, sonar, and codebreaking countered U\u2011boat threats. Postwar North Atlantic institutions facilitated trade and security. Today the Atlantic carries dense shipping traffic, energy flows, and undersea data cables. Environmental concerns include overfishing, warming waters, and changing storm regimes across both hemispheres.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pacific",
+        "description": "The Pacific Ocean is Earth\u2019s largest and deepest ocean, spanning Asia, Oceania, and the Americas. Indigenous Polynesian navigators crossed vast distances using stars, swells, and bird paths, settling island chains from Hawai\u2018i to Rapa Nui. Early modern encounters included Magellan\u2019s transit and the Manila galleons that linked New Spain to Asia. The Pacific Theater of World War II featured carrier warfare, island campaigns, and amphibious logistics on an unprecedented scale. The mid\u2011twentieth century saw nuclear testing at Bikini and Enewetak. Geologically, the Ring of Fire produces frequent earthquakes and volcanism; the Mariana Trench marks the planet\u2019s deepest known point. Coral atolls and reef systems support distinctive ecologies yet face bleaching and storm damage. Typhoons and El Ni\u00f1o events shape regional economies and migration. Today, Pacific shipping routes and exclusive economic zones influence fisheries management and strategic policy.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Indian",
+        "description": "The Indian Ocean occupies a warm basin bordered by Africa, Asia, and Australia. Seasonal monsoons structured ancient sailing, allowing predictable voyages between East Africa, Arabia, India, and Southeast Asia. Dhows, junks, and later European caravels carried spices, textiles, and bullion across a dense network of ports. With Vasco da Gama\u2019s arrival in 1498, Portuguese fleets attempted to control choke points and customs, followed by Dutch, Omani, British, and French competition. Island and coastal polities adapted to changing trade and naval power. In the nineteenth and twentieth centuries, steam routes and coaling stations reshaped maritime geography. Today, the ocean\u2019s strategic lanes pass through the Malacca Strait, Bab el\u2011Mandeb, and the Mozambique Channel. Coastal deltas support large populations dependent on fisheries, agriculture, and remittances. Environmental challenges include cyclones, coral decline, and Indian Ocean Dipole variability.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Antarctic",
+        "description": "The Antarctic or Southern Ocean encircles Antarctica and drives global circulation through the Antarctic Circumpolar Current. Nineteenth\u2011century sealers and whalers first harvested its biomass, often unsustainably. The Heroic Age of exploration brought expeditions led by Scott, Amundsen, and Shackleton, which mapped coasts and pioneered polar logistics. Mid\u2011twentieth\u2011century cooperation produced the Antarctic Treaty System, demilitarizing the continent and prioritizing science. Research stations now study climate, ice dynamics, and Southern Ocean ecosystems. Krill swarms sustain whales, seals, and penguins, making the region central to trophic studies and conservation policy. The ocean\u2019s deep water formation helps ventilate the global ocean and sequester carbon. Modern satellite and autonomous platforms track sea\u2011ice extent, eddies, and nutrient flows. Fisheries management and protected areas remain contentious as nations balance scientific access, environmental protection, and limited commercial activity.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Caribbean",
+        "description": "The Caribbean Sea and its islands form a tropical maritime zone shaped by colonialism, plantation economies, and cultural exchange. Columbus\u2019s 1492 voyage initiated sustained European colonization and rivalry among Spain, France, England, and the Netherlands. Sugar plantations in Jamaica, Barbados, and elsewhere relied on enslaved African labor, producing wealth and resistance. The Haitian Revolution (1791\u20131804) ended slavery in Saint\u2011Domingue and created the first Black republic, altering Atlantic politics and trade. The region\u2019s fragmented geography fostered piracy and privateering, with Nassau and other ports serving as bases in the early eighteenth century. After emancipation, indentured labor migration and shifting commodity markets transformed societies. Coral reef systems, including the Belize Barrier Reef, underpin fisheries and tourism but face bleaching and storm damage. Contemporary economies depend on remittances, cruise traffic, and diversified services, amid ongoing environmental and hurricane risks.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mediterranean",
+        "description": "The Mediterranean Sea links Europe, North Africa, and Southwest Asia and has long served as a corridor of trade and empire. Phoenician mariners spread alphabetic writing and established colonies such as Carthage. Greek city\u2011states and later Rome integrated the basin through commerce, law, and naval control. The Punic Wars ended Carthaginian power and cemented Roman dominance. After Rome, Byzantine and Arab polities sustained urban networks and scholarship. The Crusades and the rise of maritime republics like Venice and Genoa reshaped routes and finance. Ottoman expansion altered balances of power, while early modern galleys gave way to sail and then steam. Agricultural staples, including olives and vines, supported persistent trade. In the modern era, canals, migration, and tourism intensified connectivity. Ongoing concerns include overfishing, refugee movements, and coastal urbanization across a densely settled littoral.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Coast"
+                    }
+                ]
+            }
+        ]
+    }
+]

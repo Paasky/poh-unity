@@ -1,0 +1,308 @@
+[
+    {
+        "name": "Building",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Defense",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Move Cost",
+            "Order",
+            "Production",
+            "Production Cost",
+            "Science",
+            "Strength",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "Citizen",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Order",
+            "Production",
+            "Science",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "City",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Defense",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Move Cost",
+            "Order",
+            "Production",
+            "Science",
+            "Strength",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "Climate"
+    },
+    {
+        "name": "Concept"
+    },
+    {
+        "name": "Continent"
+    },
+    {
+        "name": "Culture"
+    },
+    {
+        "name": "Dogma"
+    },
+    {
+        "name": "Domain"
+    },
+    {
+        "name": "Elevation"
+    },
+    {
+        "name": "Equipment"
+    },
+    {
+        "name": "Era"
+    },
+    {
+        "name": "Feature"
+    },
+    {
+        "name": "Flat Land",
+        "requires": [
+            {"type": "Elevation", "name":  "Flat"},
+            {"type": "Domain", "name":  "Land"}
+        ]
+    },
+    {
+        "name": "Fresh Water"
+    },
+    {
+        "name": "Goal"
+    },
+    {
+        "name": "God"
+    },
+    {
+        "name": "Heritage"
+    },
+    {
+        "name": "Improvement",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Defense",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Move Cost",
+            "Order",
+            "Production",
+            "Science",
+            "Strength",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "Leader"
+    },
+    {
+        "name": "Major River"
+    },
+    {
+        "name": "Mountains",
+        "requires": [
+            {"type": "any", "items": [
+                {"type": "Elevation", "name":  "Mountain"},
+                {"type": "Elevation", "name":  "Snow Mountain"}
+            ]}
+        ]
+    },
+    {
+        "name": "Myth"
+    },
+    {
+        "name": "NationalWonder",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Defense",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Move Cost",
+            "Order",
+            "Production",
+            "Production Cost",
+            "Science",
+            "Strength",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "NaturalWonder",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Defense",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Move Cost",
+            "Order",
+            "Production",
+            "Production Cost",
+            "Science",
+            "Strength",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "Ocean"
+    },
+    {
+        "name": "Platform"
+    },
+    {
+        "name": "Player"
+    },
+    {
+        "name": "Policy"
+    },
+    {
+        "name": "Region"
+    },
+    {
+        "name": "Religion"
+    },
+    {
+        "name": "Resource"
+    },
+    {
+        "name": "River"
+    },
+    {
+        "name": "Route"
+    },
+    {
+        "name": "Special"
+    },
+    {
+        "name": "Stockpile"
+    },
+    {
+        "name": "Technology"
+    },
+    {
+        "name": "Terrain"
+    },
+    {
+        "name": "Tile"
+    },
+    {
+        "name": "Trade Route"
+    },
+    {
+        "name": "Trait"
+    },
+    {
+        "name": "Turn"
+    },
+    {
+        "name": "Turn Start"
+    },
+    {
+        "name": "Unit",
+        "yieldTypesFromTile": [
+            "Attack",
+            "Damage",
+            "Defense",
+            "Evasion",
+            "Hit Radius",
+            "Intercept",
+            "Moves",
+            "Paradrop Range",
+            "Range",
+            "Sight Radius",
+            "Strength",
+            "Upkeep"
+        ]
+    },
+    {
+        "name": "Unit Design"
+    },
+    {
+        "name": "Urban",
+        "requires": [
+            {"type": "any", "items": [
+                {"type": "concept", "name":  "City"},
+                {"type": "concept", "name":  "Building"},
+                {"type": "concept", "name":  "National Wonder"},
+                {"type": "concept", "name":  "World Wonder"}
+            ]}
+        ]
+    },
+    {
+        "name": "World"
+    },
+    {
+        "name": "WorldWonder",
+        "yieldTypesFromTile": [
+            "Culture",
+            "Defense",
+            "Faith",
+            "Food",
+            "Gold",
+            "Happiness",
+            "Health",
+            "Influence",
+            "Move Cost",
+            "Order",
+            "Production",
+            "Production Cost",
+            "Science",
+            "Strength",
+            "Trade Range",
+            "Trade Slot",
+            "Trade Yield"
+        ]
+    },
+    {
+        "name": "Yield"
+    }
+]

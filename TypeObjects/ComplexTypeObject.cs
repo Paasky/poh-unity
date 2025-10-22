@@ -4,7 +4,7 @@ using PohLibrary.Helpers;
 
 namespace PohLibrary.TypeObjects;
 
-public abstract class ComplexTypeObject(string id, string name, string? description)
+public abstract class ComplexTypeObject(string id, string name, string description)
     : TypeObject(id, name, description),
         IObjectWithAllowsAndRequires,
         IObjectWithGains,

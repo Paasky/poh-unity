@@ -1,0 +1,922 @@
+[
+    {
+        "name": "Carnegie Steel",
+        "category": "Production",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Steel Milling"
+            },
+            {
+                "type": "goal",
+                "name": "Industrial Might"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 12
+            }
+        ],
+        "description": "Carnegie Steel was a late nineteenth-century American steel conglomerate built by Andrew Carnegie through vertical integration and aggressive cost control. It adopted the Bessemer and open-hearth processes at scale in Pittsburgh and the Monongahela Valley, including the Homestead Works. The firm supplied rail, plate, and structural steel for transcontinental railways, large bridges, and early skyscraper frames. Output growth rested on continuous-flow mills, scientific management, and reinvestment in converters and rolling stands. Labor relations were harsh, culminating in the 1892 Homestead Strike and renewed focus on security and strikebreaking. By 1900 the company dominated U.S. steel production and influenced global prices. In 1901 Carnegie sold to a J. P. Morgan syndicate, forming United States Steel, then the world\u2019s largest corporation. The enterprise marked the transition to mass steel production and set standards for capacity planning, industrial finance, and modern metallurgy in North America."
+    },
+    {
+        "name": "Industrial Fund",
+        "category": "Production",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Stainless Steel"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 10,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "An industrial fund is a pooled financing mechanism used to expand heavy industry and large manufacturing projects. It aggregates public or quasi-public capital, channels credit to priority sectors, and buffers risk over long payback horizons. In the United States the Reconstruction Finance Corporation underwrote plants and equipment in the 1930s and wartime 1940s. The Soviet Union directed plan funds to steel, machinery, and electrification during successive Five-Year Plans. Postwar Japan, through MITI and allied banks, steered subsidized loans and guarantees toward export industries. Such funds shaped national industrial structure, raised domestic capacity, and accelerated technology transfer."
+    },
+    {
+        "name": "Spaceport",
+        "category": "Production",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Private Space Flight"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 50,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Space"
+                    }
+                ]
+            }
+        ],
+        "description": "A spaceport is a dedicated facility for launching rockets and supporting payload processing. It integrates launch pads, propellant storage, assembly hangars, tracking networks, and range safety. Early state ranges such as Baikonur and Cape Canaveral set the template. Commercial and mixed-use sites expanded the model in the twenty-first century. Mojave Air and Space Port hosted rocket-powered test flights and air-launch operations. Spaceport America pursued suborbital tourism and small payload missions. SpaceX\u2019s Starbase at Boca Chica combined manufacturing, testing, and orbital-class launches on one site. Regulatory coordination, environmental mitigation, and emergency services are integral to operations. Spaceports anchor regional aerospace clusters and open access to orbit for state and private actors."
+    },
+    {
+        "name": "National Bank",
+        "category": "Gold",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Economics"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 10,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A national bank is a state-chartered institution that manages currency issuance, reserves, public debt, payments, and lender-of-last-resort functions. The Bank of England, founded in 1694, evolved tools for discounting bills and stabilizing credit. The First Bank of the United States (1791) standardized federal receipts and backed the young republic\u2019s finances. The Banque de France (1800) consolidated note issue and treasury operations under Napoleon. National banks coordinate monetary policy, supervise banks, and provide settlement infrastructure for the economy."
+    },
+    {
+        "name": "Free Trade Zone",
+        "category": "Gold",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Globalization"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 3,
+                "for": [
+                    {
+                        "type": "concept",
+                        "name": "Trade Route"
+                    }
+                ]
+            }
+        ],
+        "description": "A free trade zone is a designated area where imported inputs and exports move with reduced or suspended tariffs and simplified customs. Authorities use zones to attract foreign direct investment, test regulatory reforms, and build logistics capacity. Ireland\u2019s Shannon Free Zone in 1959 pioneered airport-linked manufacturing and distribution. China\u2019s Shenzhen Special Economic Zone in 1980 scaled export manufacturing and market experimentation. Dubai\u2019s Jebel Ali Free Zone in 1985 integrated a major port with industrial estates. Outcomes vary by governance, but zones can accelerate trade, employment, and technology diffusion."
+    },
+    {
+        "name": "School of Socrates",
+        "category": "Science",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Philosophy"
+            },
+            {
+                "type": "goal",
+                "name": "Great Philosophers"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Science",
+                "value": 6
+            }
+        ],
+        "description": "The School of Socrates denotes the classical Athenian tradition shaped by Socrates\u2019 inquiries into ethics, virtue, and civic duty. Socrates taught through dialogue in public spaces, posing questions that exposed contradictions and pressed for clear definitions. His trial and execution in 399 BCE turned his method and life into a touchstone for later thinkers. Plato systematized Socratic debates in dialogues and founded the Academy, where metaphysics and political theory were advanced. Aristotle, trained at the Academy, established the Lyceum and extended inquiry to biology, logic, and empirical observation. The Socratic method endured in rhetorical training, Roman schools, medieval disputation, and modern legal and educational practice, linking moral reasoning to disciplined argument."
+    },
+    {
+        "name": "Royal Society",
+        "category": "Science",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Scientific Method"
+            },
+            {
+                "type": "goal",
+                "name": "The Enlightenment"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Science",
+                "value": 12
+            }
+        ],
+        "description": "The Royal Society, chartered in London in 1662, became a central institution of the Scientific Revolution. It promoted experiment, measurement, and collective scrutiny of claims. The Philosophical Transactions, started in 1665, established sustained scientific publishing and peer evaluation. Robert Boyle\u2019s chemical and pneumatic work circulated through its meetings and papers. Edmond Halley used its networks to pursue cometary orbits and to shepherd Isaac Newton\u2019s Principia to publication. The Society fostered standards for instruments, meteorological records, and natural history. It advised government on navigation, longitude, and public health. By the eighteenth century it linked British and continental savants and provided a durable model for national academies."
+    },
+    {
+        "name": "National Library",
+        "category": "Science",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Universal Suffrage"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Science",
+                "value": 10,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A national library is the state\u2019s principal repository for published heritage and scholarly reference. It acquires materials through legal deposit, builds catalogs and classification systems, and preserves rare and fragile collections. Reading rooms and bibliographic services support research across disciplines. The British Museum Reading Room became a nineteenth-century center for scholarship. The Library of Congress expanded in the industrial era, culminating in the Jefferson Building of 1897. The National Library of China began in 1909 and grew with modern cataloging and conservation programs. Contemporary national libraries digitize holdings, manage persistent identifiers, and coordinate standards with international partners."
+    },
+    {
+        "name": "Space Program",
+        "category": "Science",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Space Flight"
+            }
+        ],
+        "specials": [
+            "Can build Satellites"
+        ],
+        "description": "A space program is a government-led effort to develop rockets, satellites, and crewed flight for science, security, and economic aims. The Soviet launch of Sputnik in 1957 initiated global competition and collaboration. The United States achieved the Apollo Moon landings in 1969\u20131972 after Mercury and Gemini. Early human missions such as Vostok and Mercury proved orbital flight and reentry. Programs also built weather, communications, and navigation satellites. Over time agencies added international partnerships, reusable systems, and commercial procurement."
+    },
+    {
+        "name": "Large Language Model",
+        "category": "Science",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Artificial Intelligence"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Science",
+                "value": 50,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A large language model is a neural network trained on large text corpora to predict tokens and generate coherent language. The 2017 Transformer architecture enabled scalable attention and parallel training. BERT in 2018 advanced bidirectional pretraining for understanding tasks. Autoregressive families such as GPT-3 and GPT-4 scaled parameters and data to achieve strong generation, reasoning, and coding assistance. Open research lines produced LLaMA and PaLM and broadened evaluation and safety methods. Training demands significant compute, energy, and data curation. Applications include search, drafting, tutoring, and software tooling. The field tracks scaling laws, alignment techniques, and deployment risks as capabilities expand."
+    },
+    {
+        "name": "Food Program",
+        "category": "Growth",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Antibiotics"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Food",
+                "value": 2,
+                "for": [
+                    {
+                        "type": "concept",
+                        "name": "Building"
+                    }
+                ]
+            }
+        ],
+        "description": "Twentieth-century food programs coordinated nutrition aid, fortification, and food security through state and multilateral agencies. Postwar school feeding, such as U.S. National School Lunch Program expansions after 1946, linked agricultural surpluses to child health. The United Nations created the World Food Programme in 1961 to deliver emergency relief and development logistics. Public health campaigns added vitamin fortification, deworming, and targeted supplementation to reduce deficiency diseases and stunting. Governments built grain reserves, subsidized staples, and refined ration systems during crises. Evaluation used metrics such as caloric availability, anthropometry, and mortality. Debates over targeting versus universal benefits shaped later conditional transfers and community nutrition interventions."
+    },
+    {
+        "name": "Geolyph",
+        "category": "Culture",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Tradition"
+            },
+            {
+                "type": "goal",
+                "name": "First Cities"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Culture",
+                "value": 4
+            }
+        ],
+        "description": "Ancient geolyphs are large ground designs made by removing or arranging surface materials to create enduring figures and lines. The Nazca Lines in Peru, etched by scraping desert varnish, form animals, plants, and linear tracks visible from surrounding hills. The Uffington White Horse in Britain exposes chalk bedrock to outline an equine figure maintained by periodic scouring. In northern Chile, the Atacama Giant and related figures occupy slopes and pampas used by caravan routes. Construction relied on simple surveying, sightlines, and repeated maintenance rather than monumental masonry. Functions ranged from processional pathways and water rites to territorial and calendrical markers. Modern study applies aerial photography, lidar, optically stimulated luminescence, and microstratigraphy to date surfaces, reconstruct techniques, and map regional patterning."
+    },
+    {
+        "name": "Great Epic",
+        "category": "Culture",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Drama"
+            },
+            {
+                "type": "goal",
+                "name": "Wonders of the World"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Culture",
+                "value": 6
+            }
+        ],
+        "description": "Great epics are long narrative poems that conserve myth, heroic deeds, and communal memory through formulaic verse and performance. In the Greek world, Homer's Iliad and Odyssey codified an oral tradition using dactylic hexameter, catalogues, and set scenes. Roman literature adapted that heritage in Virgil's Aeneid, linking Trojan migration to imperial destiny and offering a model for Augustan statecraft. In South Asia, classical Sanskrit epic recitations sustained extensive cycles with complex meter, framed storytelling, and didactic passages; court and temple milieus preserved performance and commentary. Epic composition moved between oral improvisation and written redaction, generating variant episodes and local continuations. Manuscripts, scholia, and later translations stabilized canons yet kept interpretive debates active. The genre shaped education, law, and political rhetoric, and inspired visual programs, from vase painting to imperial frescoes."
+    },
+    {
+        "name": "Codex Manesse",
+        "category": "Culture",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Chivalry"
+            },
+            {
+                "type": "goal",
+                "name": "Tournaments"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Culture",
+                "value": 8
+            }
+        ],
+        "description": "The Codex Manesse is a lavish illuminated anthology of German Minnesang compiled in Zurich in the early fourteenth century, likely under the patronage of the Manesse family. It gathers lyrics by more than a hundred poets, each preceded by a heraldic portrait that situates the author within chivalric society. The manuscript standardizes dialect, melodies, and themes of courtly love, hunting, and fealty, offering a key witness to High German poetic language. Its miniatures document tournament culture, costume, and armorial bearings. Comparisons with chansonniers and the Nibelungenlied manuscript tradition reveal shared scribal practices and court networks. Rediscovery in the modern era shaped philology and musicology, guiding editions and performances of Minnesang. The codex's preservation history includes dispersal risks, later rebinding, and scholarly restorations that stabilized its foliation and iconography."
+    },
+    {
+        "name": "National Art Museum",
+        "category": "Culture",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Art History"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Culture",
+                "value": 12
+            }
+        ],
+        "description": "A national art museum emerged during the Enlightenment as a public institution charged with collecting, conserving, and exhibiting a canon of artworks for civic education. Revolutionary and reforming states opened royal holdings to citizens, most notably the Louvre in 1793 after the French monarchy's fall. The Hermitage's imperial collections, founded in 1764, expanded through acquisitions and later public access. In Italy, eighteenth-century Uffizi reforms created a managed gallery open to visitors and scholars. These museums professionalized curatorship, cataloging, and restoration, and developed chronological displays that narrated national schools. They organized salons and traveling exhibitions, built study rooms, and trained conservators. Their buildings, often neoclassical, anchored national cultural policy."
+    },
+    {
+        "name": "Natural History Museum",
+        "category": "Culture",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Drilling"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Culture",
+                "value": 15,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A natural history museum institutionalized the collection and study of biodiversity, geology, and paleontology during the industrial age. The Natural History Museum, London (1881), the American Museum of Natural History (1869), and Chicago's Field Museum (1894) organized global specimens for taxonomy, stratigraphy, and evolutionary research. Galleries combined dioramas, fossil halls, and mineral displays with laboratories, libraries, and expedition archives. Curators systematized classification, mounted large vertebrate skeletons, and developed public lectures and guidebooks. Colonial collecting networks and transatlantic exchanges supplied specimens and data, later recontextualized by repatriation and ethics debates. Education programs and traveling exhibits broadened access, while research divisions advanced systematics, biogeography, and conservation biology."
+    },
+    {
+        "name": "Temple Mount",
+        "category": "Faith",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Organized Religion"
+            },
+            {
+                "type": "goal",
+                "name": "Pantheon of Gods"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Faith",
+                "value": 6
+            }
+        ],
+        "description": "The Temple Mount is a walled hilltop in Jerusalem that served as the ritual center of ancient Israelite religion and remained a focal site for subsequent faiths. The First Temple, attributed to the reign of Solomon, housed the Ark narrative and a priestly cult focused on sacrifice and pilgrimage festivals. After Babylonian destruction, the Second Temple was rebuilt and later expanded on vast substructures under Herod, creating courts, porticoes, and monumental gates. Roman forces razed the sanctuary in 70 CE, leaving retaining walls preserved in later periods. The platform later hosted Islamic sanctuaries, including the Dome of the Rock and al-Aqsa Mosque, while nearby the Western Wall became a place of Jewish prayer. Archaeology documents drainage tunnels, paving, and ash layers, though excavation on the platform is restricted. Textual sources, from Josephus to rabbinic literature, guide reconstruction of rites, governance, and revenue. The site shaped imperial policy, pilgrimage, and urban form across millennia."
+    },
+    {
+        "name": "Royal Palace",
+        "category": "Faith",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Buttress"
+            },
+            {
+                "type": "goal",
+                "name": "Mandate of Heaven"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Faith",
+                "value": 8
+            }
+        ],
+        "description": "A medieval royal palace functioned as a fortified residence, administrative hub, and stage for ceremony and justice. The Aachen Palatine Chapel integrated a throne room and octagonal chapel that anchored Carolingian governance and liturgy. In Iberia, the Nasrid palaces of the Alhambra combined courts, waterworks, and inscriptions that ordered dynastic space. The Tower of London served as residence, treasury, and state prison within a concentric defensive complex. Palaces housed chancery offices, archives, and treasuries, and received embassies and fealty oaths. Architecture ranged from timber halls to masonry keeps with chapels and great chambers. Many courts were itinerant, yet palatial complexes fixed tribute collection and ritual calendars. Later transformations reoriented spaces to galleries and parade rooms."
+    },
+    {
+        "name": "National Church",
+        "category": "Faith",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Radio"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Faith",
+                "value": 15,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A national church in the twentieth century was a state-recognized body coordinating public worship, media outreach, and rites of passage within a defined jurisdiction. Vatican Radio, launched in 1931, broadcast liturgy and teaching with new communications technology. Lutheran state churches in Scandinavia managed parish registers, education, and welfare under established-church frameworks that later democratized. Orthodox national patriarchates navigated revolutions, occupation, and socialism while maintaining cathedrals, monastic networks, and calendrical authority. Concordats, constitutions, and disestablishment statutes set limits on taxation, property, and appointment rights. After mid-century, ecumenical councils, human rights debates, and mass media reshaped governance, catechesis, and public voice."
+    },
+    {
+        "name": "National Health Service",
+        "category": "Health",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Antibiotics"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Health",
+                "value": 20,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A national health service delivers universal medical coverage funded by general taxation or public insurance, integrating hospitals, primary care, and public health. The United Kingdom created the NHS in 1948, establishing free-at-point-of-use treatment with salaried hospital consultants and contracted general practitioners. Nordic systems developed similar nationwide coverage with strong municipal roles. Canada's Medicare expanded nationally after provincial models, guaranteeing medically necessary services under federal standards. Governance evolved through regional authorities, performance targets, and cost-effectiveness assessment. Challenges included wait times, workforce planning, and aging populations. Preventive programs for vaccination, screening, and chronic disease management became central to outcomes."
+    },
+    {
+        "name": "Parliament",
+        "category": "Happiness",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Bureaucracy"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Happiness",
+                "value": 6,
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "Parliament is a national legislature that emerged from medieval assemblies of estates and towns. The Cortes of Le\u00f3n in 1188 documented early consent to taxation and petitions. England\u2019s Model Parliament of 1295 gathered clergy, nobles, and elected commons. Over time parliaments claimed authority to enact statutes, grant supplies, and scrutinize ministers. Conflicts over prerogative led to constitutional settlements in Britain and the growth of parliamentary sovereignty. In the nineteenth and twentieth centuries many states adopted elected chambers, party leadership, and committee systems. Modern parliaments legislate, approve budgets, ratify treaties, and investigate the executive."
+    },
+    {
+        "name": "Yellowstone",
+        "category": "Happiness",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Drilling"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Happiness",
+                "value": 2,
+                "for": [
+                    {
+                        "type": "concept",
+                        "name": "Building"
+                    }
+                ]
+            }
+        ],
+        "description": "Yellowstone National Park was created by the U.S. Congress in 1872 as the first large reserve set aside to safeguard geothermal wonders and wildlife. Reports from the Washburn and Hayden expeditions described geysers, hot springs, and dramatic canyons, prompting a preservation statute unprecedented in scope. Administration began under the Interior Department, with the U.S. Army enforcing rules from 1886 to 1918 against poaching and vandalism. The National Park Service took over in 1916 and promoted regulated tourism, roads, and interpretation. Early conservationists worked to restore bison herds and to manage predators, policies later revised toward ecological balance. The 1988 fires spurred advances in fire science and management doctrine. Yellowstone sits on lands long used by Indigenous peoples, including Crow, Shoshone, and Bannock communities, whose access was curtailed after designation. The park became a global model for protected areas and for scientific study of geothermal systems, megafauna dynamics, and reintroduction programs such as gray wolf recovery."
+    },
+    {
+        "name": "High Court",
+        "category": "Order",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Bureaucracy"
+            },
+            {
+                "type": "goal",
+                "name": "Urban Society"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Order",
+                "value": 6,
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "The High Court is the apex judicial authority entrusted with final appeals and uniform interpretation of law. Such courts gained prominence in the age of written constitutions and codification. The United States Supreme Court, established in 1789, asserted judicial review and built a national body of precedent. France\u2019s Court of Cassation, created in 1790, unified legal practice by quashing improper judgments and ensuring consistent application of codes. High courts hear constitutional disputes, major civil and criminal cases, and administrative challenges. Their decisions shape rights, federal relations, and governance. Many systems require reasoned opinions, published reports, and collegial deliberation."
+    },
+    {
+        "name": "State Police",
+        "category": "Order",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Civil Defense"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Order",
+                "value": 2,
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "State police are centralized law enforcement bodies created to patrol wide territories, standardize training, and backstop local authorities. Pennsylvania formed a modern model in 1905 to combat mine violence and rural crime. Italy\u2019s Carabinieri evolved through twentieth\u2011century reforms into a national gendarmerie with military status and civil security roles. The Soviet Militsiya structured policing along centralized lines within a single-party state. State police units typically manage highways, forensics, riot control, and specialized investigations. Radio networks, motorized patrols, and later databases enabled rapid response. Coordination with prosecutors and emergency services anchors their public safety mission."
+    },
+    {
+        "name": "Tournament Grounds",
+        "category": "Influence",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Chivalry"
+            }
+        ],
+        "specials": [
+            "Can hold tournaments"
+        ],
+        "description": "Tournament grounds were purpose-built spaces for jousts, m\u00eal\u00e9es, and ceremonial displays in medieval Europe. A tiltyard with a central barrier allowed mounted charges, while enclosed lists kept combatants and horses within bounds. Timber grandstands and pavilions accommodated rulers, heralds, and judges. Armour inspections, oaths, and heraldic announcements structured proceedings. Smithfield in London hosted famed jousts, as did circuits across France and the German principalities. Prizes, ransoms, and patronage attracted elite competitors and craftsmen. Urban authorities regulated safety and traffic, while rulers used events for musters and diplomacy. As firearms changed warfare, tournaments shifted toward pageantry and court festivals. Purpose-built tiltyards at royal palaces kept the ritual alive into the sixteenth century."
+    },
+    {
+        "name": "Diplomacy Institute",
+        "category": "Influence",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Diplomacy"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Influence",
+                "value": 10,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "concept",
+                        "name": "City"
+                    }
+                ]
+            }
+        ],
+        "description": "A diplomacy institute formalizes the training of envoys in language, law, and negotiation. Italian city-states pioneered permanent embassies and professional chancelleries in the fifteenth century. Venice cultivated long-term resident ambassadors, dispatch systems, and detailed relazioni. The Medici chancery in Florence trained secretaries in rhetoric, cryptography, account keeping, and ceremonial protocol. Such centers taught legal theory, geography, and court practice to prepare officials for complex bargaining among princes and republics. Graduates compiled dispatches, managed archives, and maintained networks with merchants and scholars. The model spread to princely and national foreign ministries, which later built academies and institutes to standardize methods, teach languages from Ottoman Turkish to Spanish, and codify etiquette and precedence."
+    },
+    {
+        "name": "Intelligence Agency",
+        "category": "Influence",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Civil Defense"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Influence Cost",
+                "value": -25,
+                "type": "percent"
+            }
+        ],
+        "description": "An intelligence agency gathers, analyzes, and acts on information relevant to national security and foreign policy. In 1909 Britain formed the Secret Intelligence Service (MI6) to direct overseas espionage. The United States created the wartime Office of Strategic Services in 1942, followed by the Central Intelligence Agency in 1947 with analytic and covert action mandates. Soviet organs from the Cheka to the KGB integrated domestic security, foreign intelligence, and active measures. Agencies employ human sources, signals interception, imagery, and open-source research. They run clandestine networks, counterintelligence, and influence operations. Oversight varies, ranging from parliamentary committees to tight executive control."
+    },
+    {
+        "name": "Hybrid Warfare Center",
+        "category": "Influence",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Virtual Reality"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Influence Cost",
+                "value": 25,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "Against your Incident"
+                    }
+                ]
+            }
+        ],
+        "description": "A hybrid warfare center concentrates expertise on blending cyber operations, information campaigns, electronic warfare, and conventional force design. Such facilities test doctrine, run simulations, and coordinate civil\u2011military responses to gray\u2011zone pressure. NATO founded the Strategic Communications Centre of Excellence in 2014 to study disinformation, audiences, and military messaging. National cyber commands built ranges for red\u2011teaming, malware analysis, and defensive exercises. Analysts drew lessons from Russia\u2019s seizure of Crimea, which combined special forces, covert logistics, deniable proxies, and media manipulation. Centers publish handbooks, train officers and civilian officials, and connect academia with operational units. Their work feeds capability development, interagency planning, and alliance interoperability."
+    },
+    {
+        "name": "Campus Martius",
+        "category": "Mil Land",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Military Training"
+            },
+            {
+                "type": "goal",
+                "name": "Veni, Vidi, Vici"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 6,
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Land"
+                    }
+                ]
+            }
+        ],
+        "description": "The Campus Martius was the open plain north of Rome\u2019s sacred boundary where citizens mustered for war and assembled for civic rites. In the Republic, the comitia centuriata met there to vote on magistrates and laws under arms. Legions trained, consular armies mustered, and triumphal processions formed before entering the city. The field hosted horse exercises, athletic games, and public census rituals overseen by censors. From the late Republic and under Augustus the area filled with monuments that reframed its martial past. The Mausoleum of Augustus, the Ara Pacis, and later the Pantheon and baths remade the landscape with marble, gardens, and porticoes. Aqueducts and theaters made it a populous quarter while remaining a ceremonial mustering ground. The site linked military service, civic identity, and imperial ceremony in Roman political culture."
+    },
+    {
+        "name": "Military Academy",
+        "category": "Mil Land",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Military Tradition"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Strength",
+                "value": 1,
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Land"
+                    }
+                ]
+            }
+        ],
+        "description": "A military academy provides systematic officer education in mathematics, engineering, fortification, and leadership. Enlightenment rulers founded schools to rationalize command and integrate scientific advances. Austria\u2019s Theresian Military Academy opened in 1751 to train a professional, merit-based corps for the Habsburg Monarchy. In Paris the \u00c9cole Militaire, established in the 1750s, combined drill with courses in geometry, artillery, and topography. Cadets learned staff procedures, logistics, surveying, and the etiquette of service. Standardized curricula and examinations fostered a common doctrine across units and branches. The model spread globally in the nineteenth century and anchored modernization of armies that relied on trained engineers, gunners, and staff officers."
+    },
+    {
+        "name": "General Staff",
+        "category": "Mil Land",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Repeating Rifles"
+            },
+            {
+                "type": "goal",
+                "name": "World War"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Strength",
+                "value": 1,
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Land"
+                    }
+                ]
+            }
+        ],
+        "description": "A general staff is a professional headquarters that plans operations, logistics, and strategy for a nation\u2019s armed forces. It matured in the late 19th and early 20th centuries as armies expanded and warfare grew complex. Staff officers developed campaign plans, coordinated mobilization and supply, produced intelligence estimates, and oversaw training and doctrine. The German General Staff influenced two world wars, refining war-gaming and railway timetables for rapid deployment. The Red Army General Staff guided vast operational campaigns on the Eastern Front and managed postwar modernization. Many states created staff colleges to standardize methods and cultivate a cadre of planners. The model shaped joint planning systems and fostered doctrine-driven, bureaucratic control of modern war."
+    },
+    {
+        "name": "Military Practice Range",
+        "category": "Mil Land",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Rifle Scopes"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Strength",
+                "value": 1,
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Land"
+                    }
+                ]
+            }
+        ],
+        "description": "A military practice range is a controlled training area designed for live-fire marksmanship, maneuver drills, and tactical scenarios. Modern complexes combine ballistic ranges, shoot houses, urban operations sites, and instrumented fields. Safety arcs, impact berms, and environmental controls manage risk and contamination. Digital systems record accuracy and movement, while simulators such as Engagement Skills Trainers allow cost-effective repetition. Units rehearse night operations, sniper engagements, breaching, and combined arms coordination. Networking with unmanned systems, thermal sights, and laser-based force-on-force tools reflects current battlefield technology. Contemporary armies integrate ranges into larger training centers to certify readiness and validate tactics. These facilities underpin professional standards for small arms proficiency and unit cohesion."
+    },
+    {
+        "name": "Naval Academy",
+        "category": "Mil Water",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Military Tradition"
+            },
+            {
+                "type": "terrain",
+                "name": "Coast"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Strength",
+                "value": 1,
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Water"
+                    }
+                ]
+            }
+        ],
+        "description": "A naval academy is an institution that educates naval officers in seamanship, navigation, engineering, and naval warfare. The model took shape in the industrial era as steam power, iron hulls, and advanced gunnery demanded technical training. Cadets study celestial and electronic navigation, naval architecture, marine propulsion, weapons systems, and maritime law. Practical instruction occurs aboard training vessels and in engineering labs and simulators. The U.S. Naval Academy at Annapolis (1845), Britannia Royal Naval College at Dartmouth (1863), and the Imperial Japanese Naval Academy at Etajima (1869) produced officers for global fleets. Graduates led transition from sail to steam, managed complex ship systems, and commanded fleets in colonial, world, and Cold War conflicts."
+    },
+    {
+        "name": "Great Market",
+        "category": "Trade",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Currency"
+            },
+            {
+                "type": "goal",
+                "name": "Trade Network"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 2,
+                "for": [
+                    {
+                        "type": "concept",
+                        "name": "Trade Route"
+                    }
+                ]
+            }
+        ],
+        "description": "A Great Market is a centralized urban marketplace that concentrates exchange, crafts, and distribution. In classical cities it organized stalls, warehouses, and porticoes for regulated trade. The Athenian Agora hosted merchants, civic notices, and coin-based transactions under standardized weights. Roman Forum markets and macella combined retail, wholesale, and banking within magistrate oversight. Bazaars along Silk Road nodes linked regional producers to distant consumers, spreading goods and commercial norms. Guilds, money changers, and tax collectors operated amid intense foot traffic. The Great Market drove urban revenue and logistics, channeled imports to hinterlands, and supported craft specialization. Its spatial order and legal frameworks stabilized prices and credit in premodern economies."
+    },
+    {
+        "name": "East India Company",
+        "category": "Trade",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Colonialism"
+            },
+            {
+                "type": "terrain",
+                "name": "Coast"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Trade Slot",
+                "value": 8
+            }
+        ],
+        "description": "East India companies were chartered joint-stock corporations that managed long-distance trade and colonial ventures. The English East India Company (1600) and the Dutch VOC (1602) secured monopolies over Asian commerce in spices, textiles, and tea. They operated fortified factories, maintained private armies, and negotiated treaties with local rulers. The VOC ran Batavia as a colonial hub and dominated Indonesian spice islands before declining in 1799. The English company expanded from trade to territorial rule in Bengal, built revenue systems, and fielded sepoy forces. After the 1857 revolt, the British Crown ended Company rule in India and dissolved the firm in 1874. These corporations advanced marine insurance, standardized accounting, and stock exchange practices while reshaping global trade routes and imperial governance."
+    },
+    {
+        "name": "Trade Delegation",
+        "category": "Trade",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Economics"
+            },
+            {
+                "type": "goal",
+                "name": "Global Trade"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Trade Range",
+                "value": 25,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "special",
+                        "name": "All cities"
+                    }
+                ]
+            }
+        ],
+        "description": "A trade delegation is an official mission sent to negotiate commercial agreements and promote national merchants abroad. In the Enlightenment era, states used delegations to fix tariffs, navigation rights, and consular protections under mercantilist policies. Envoys worked alongside resident ambassadors and consuls to secure market access and legal privileges. The Methuen Treaty of 1703 linked English woolens and Portuguese wine through reciprocal duties. European delegations concluded capitulations with the Ottoman Empire and negotiated port facilities worldwide. Over time, commercial attach\u00e9s and chambers of commerce professionalized these efforts. Trade delegations laid the groundwork for modern bilateral treaties, most-favored-nation clauses, and multilateral commercial regimes."
+    },
+    {
+        "name": "Marine Institute",
+        "category": "Water",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Hydrodynamics"
+            },
+            {
+                "type": "terrain",
+                "name": "Coast"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Food",
+                "value": 20,
+                "type": "percent",
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Water"
+                    }
+                ]
+            }
+        ],
+        "description": "A marine institute is a research center focused on oceanography, fisheries science, and marine engineering. It operates research vessels, coastal laboratories, and instrument networks to study physical, chemical, and biological processes at sea. Scripps Institution of Oceanography (1903) and Woods Hole Oceanographic Institution (1930) pioneered deep-ocean exploration, sonar mapping, and submersible development. Their work advanced knowledge of plate tectonics, currents, and marine ecosystems. Institutes also support fisheries management and conservation policy through stock assessments and habitat studies. During wartime they contributed to anti-submarine warfare and acoustics. Today they integrate satellite data, autonomous platforms, and climate models to assess ocean warming, sea-level rise, and carbon cycles."
+    },
+    {
+        "name": "Carcassonne",
+        "category": "Defense",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Castles"
+            },
+            {
+                "type": "goal",
+                "name": "Feudal Lords"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Defense",
+                "value": 12,
+                "for": [
+                    {
+                        "category": "building",
+                        "name": "Defense"
+                    }
+                ]
+            }
+        ],
+        "description": "Carcassonne is a fortified medieval city in Languedoc, France, noted for its concentric double walls, barbicans, and towers. The site guarded routes between the Atlantic and the Mediterranean and controlled the Aude valley. The citadel, or Cit\u00e9, evolved from late Roman ramparts and expanded through the 12th to 14th centuries. It figured in the Albigensian Crusade and regional power struggles, serving as a royal fortress and customs post. Decline followed shifts in warfare and trade, but 19th-century restoration by Eug\u00e8ne Viollet-le-Duc stabilized the ensemble. The rebuilt crenellations and slate roofs remain debated yet preserved the fabric. Today Carcassonne is a UNESCO World Heritage site and a key case in medieval military architecture and conservation history."
+    },
+    {
+        "name": "Voyage of Magellan",
+        "category": "Other",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Carvel Hulls"
+            },
+            {
+                "type": "terrain",
+                "name": "Coast"
+            },
+            {
+                "type": "goal",
+                "name": "Ocean Voyages"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Moves",
+                "value": 1,
+                "for": [
+                    {
+                        "type": "domain",
+                        "name": "Water"
+                    }
+                ]
+            }
+        ],
+        "description": "The Magellan\u2013Elcano expedition (1519\u20131522) achieved the first circumnavigation of the Earth. Commissioned by Spain to reach the Spice Islands by sailing west, the fleet found the strait at South America\u2019s tip and crossed the Pacific. The passage, later named the Strait of Magellan, opened a viable but hazardous route. After famine and scurvy, the ships reached the Philippines, where Ferdinand Magellan was killed at Mactan in 1521. Juan Sebasti\u00e1n Elcano assumed command and returned via the Indian Ocean, bringing the ship Victoria and a handful of survivors to Spain. The voyage quantified global distances, validated oceanic connectivity, and proved westward access to Asia. It reshaped cartography, navigation practice, and imperial strategy."
+    },
+    {
+        "name": "Fusion Plant",
+        "category": "Other",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Nuclear Fusion"
+            }
+        ],
+        "gains": [
+            {
+                "type": "resource",
+                "name": "Electricity",
+                "value": 20
+            }
+        ],
+        "description": "A fusion plant is a power station designed to produce electricity from controlled nuclear fusion. Most designs use deuterium\u2013tritium fuel heated to plasma conditions and confined in magnetic devices such as tokamaks or stellarators. High fields and advanced materials manage extreme heat loads and neutron flux. Key challenges include sustained net energy gain, tritium breeding, and component durability. Experimental programs like JET demonstrated significant fusion yields, while ITER aims to reach long-pulse power amplification. DEMO concepts and national pilot plants plan grid delivery once materials and breeding blankets mature. Private ventures pursue compact approaches with high-temperature superconductors and novel magnets. If realized, fusion would provide large-scale, low-carbon baseload power with minimal long-lived waste."
+    }
+]

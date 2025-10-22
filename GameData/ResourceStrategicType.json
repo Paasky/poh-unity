@@ -1,0 +1,383 @@
+[
+    {
+        "name": "Copper",
+        "description": "Copper is a soft, workable metal widely used since prehistory. Early communities exploited native copper and soon learned to smelt ores such as malachite. By the fourth and third millennia BCE it supported craft specialists and long-range exchange. Alloying with tin produced bronze, the standard material for tools, weapons, and vessels in many Bronze Age societies. Major sources included Timna in the southern Levant and Cyprus, a hub for eastern Mediterranean trade. Ingots circulated by sea, evidenced by Late Bronze Age shipwreck cargoes. Copper served in tools, ornaments, and fastenings, and could be recycled with little loss. In classical and medieval periods it supplied coinage alloys, plumbing, and decorative work. Iron displaced it for many tools, but copper and bronze remained important for art and durable fittings.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Tin",
+        "description": "Tin is a scarce metal essential for making bronze. Small additions harden copper and improve casting. During the Bronze Age, demand drove long-distance exchange. Probable sources included Cornwall and Devon, Iberia, Brittany, the Erzgebirge, and Central Asia. Trade linked Atlantic Europe with the Mediterranean and Near East. The Uluburun shipwreck shows standardized copper and tin ingots in near-ideal ratios. Control of supply affected elite power, craft production, and warfare. After the Bronze Age, tin continued in pewter alloys, solders, and tinplate. Medieval and early modern mining in Cornwall fed European markets. The rarity of rich ores and the difficulty of tracing provenance make tin networks a key case in archaeometallurgy and ancient economic history.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Hardwood",
+        "description": "Hardwood denotes dense, slow-growing timbers such as oak, teak, chestnut, and mahogany. Pre-industrial states relied on these woods for ship hulls, frames, masts, and durable buildings. European oak underpinned medieval and early modern navies and timber-framed architecture. In South and Southeast Asia, teak resisted rot and shipworm, making it prized for docks and ocean-going vessels. Hardwood charcoal was the primary fuel for bloomery and early blast-furnace ironmaking before mineral coke. Extensive demand drove forest management, coppicing, and regulated felling, but also deforestation near shipyards and mines. Strategic stocks of seasoned timber were guarded by crowns and chartered companies. The shift to iron and steel ships, and to coal and coke fuels, reduced pressure yet hardwood remained vital for specialty uses.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "feature",
+                        "name": "Forest"
+                    },
+                    {
+                        "type": "feature",
+                        "name": "Pine Forest"
+                    },
+                    {
+                        "type": "feature",
+                        "name": "Jungle"
+                    }
+                ]
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Sawmill"
+        ]
+    },
+    {
+        "name": "Camels",
+        "description": "Camels furnished reliable transport across arid zones. Two main species were used: the one-humped dromedary in Arabia and North Africa, and the two-humped Bactrian in Central Asia. Physiological endurance and efficient water use enabled heavy caravan loads. By the first millennium BCE, saddles and harness improved control and carrying capacity. Trans-Saharan caravans moved gold, salt, and slaves between the Sahel and Mediterranean. On the Arabian routes, camels carried frankincense and myrrh toward Levantine ports. They supported frontier logistics on the Silk Road\u2019s desert corridors. Armies employed camel troops and pack trains in desert warfare, from Achaemenid campaigns to early Islamic conquests. Despite rail and motor roads, camel caravans persisted into the twentieth century in remote trade.",
+        "requires": [
+            {
+                "type": "terrain",
+                "name": "Desert"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Camp"
+        ]
+    },
+    {
+        "name": "Horses",
+        "description": "The horse transformed transport, communications, and warfare. Domestication on the Eurasian steppe preceded the emergence of spoked-wheel chariots in the second millennium BCE. Chariotry dominated elite warfare from Egypt to Mesopotamia until improved riding gear and training expanded mounted combat. Assyrian, Achaemenid, and Hellenistic forces fielded effective cavalry. The stirrup, widespread by the early medieval period, stabilized shock and lance use. In Europe, armored knights shaped feudal military organization. On the steppe, Mongol horse archers combined mobility, discipline, and remount herds to conquer across Eurasia. Horses carried couriers, plows, and wagons, tying rural production to state power. Railways and engines reduced strategic reliance, yet cavalry retained roles into the early twentieth century before mechanization prevailed.",
+        "requires": [
+            {
+                "type": "terrain",
+                "name": "Plains"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Pasture"
+        ]
+    },
+    {
+        "name": "Elephants",
+        "description": "Elephants served as labor and as battlefield assets in South and Southeast Asia. Indian polities developed training traditions for timber extraction and war. War elephants carried archers and commanders and broke infantry formations. Seleucid and Ptolemaic armies adopted them after contact with the Mauryan state. Carthage used North African elephants; Hannibal\u2019s crossing of the Alps became famous though few animals survived. The Hellenistic world employed towered elephants as mobile platforms, countered by missiles, skirmishers, and later by disciplined pike. Firearms and artillery reduced their battlefield utility, but ceremonial prestige endured. In colonial and modern periods, elephants continued in logging and royal display. Conservation concerns have ended most labor uses in favor of protection.",
+        "requires": [
+            {
+                "type": "feature",
+                "name": "Jungle"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Camp"
+        ]
+    },
+    {
+        "name": "Iron",
+        "description": "Iron became the dominant metal for tools, weapons, and infrastructure. Early smiths produced wrought iron in bloomeries from the late second millennium BCE, followed by carburized steels for edged weapons. After 1200 BCE, ironworking spread across the Mediterranean and temperate Eurasia. China developed cast iron and fining techniques by the Warring States period. Europe adopted the blast furnace in the late medieval era, supporting mass nails, fittings, and artillery. Roman construction had already used iron clamps and nails on a vast scale. The eighteenth century saw coke-fueled smelting and puddled wrought iron. Nineteenth-century railways, bridges, and machines relied on iron before mild steel displaced it. Iron remains foundational in modern alloys and engineering.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Coal",
+        "description": "Coal is a carbon-rich sedimentary fuel. It served heating needs in China and Europe and later powered industrial change. In eighteenth-century Britain, coal-fired engines drained mines, drove pumps, and turned factory machinery. Abraham Darby\u2019s coke smelting advanced iron production, while Watt\u2019s improved engine spread steam power. Railways burned coal to move freight and people across continents in the nineteenth century. Urban homes used coal for cooking and heat; gasworks distilled it into town gas for lighting. Coal smoke shaped city life and public health, prompting early air-quality laws. In the twentieth century it remained central to electricity generation and metallurgy, even as oil and gas expanded energy markets.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Production",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Gas",
+        "description": "Gas as an energy source began with manufactured town gas made from coal. From the early nineteenth century, pipes supplied street lamps, factories, and homes in European and American cities. Natural gas gained scale in the twentieth century with high-pressure pipelines. It became a common fuel for heating, power generation, and industrial heat. Chemical plants used it as feedstock for methanol, ammonia, and fertilizers via the Haber-Bosch process. Gas figures in national energy security, balancing baseload and peak demand. Liquefied natural gas allowed oceanic trade and diversification of supply in the late twentieth century.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Desert"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Tundra"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Plains"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    }
+                ]
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Well"
+        ]
+    },
+    {
+        "name": "Oil",
+        "description": "Petroleum entered modern economies through refined kerosene, which displaced whale oil for lighting in the mid-nineteenth century. Drilling at Titusville in 1859 and the Spindletop gusher of 1901 marked the rise of the U.S. oil industry. Internal combustion engines then tied oil to automobiles, trucks, aircraft, and mechanized warfare. Naval fleets converted from coal to oil for greater range and speed. Major fields in the Middle East, Russia, and the Americas reshaped finance and geopolitics. Refineries produced lubricants, asphalt, and the feedstocks of plastics and synthetic fibers. Oil shocks and environmental policy later influenced exploration, strategic reserves, and alternative fuels.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Desert"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Tundra"
+                    },
+                    {
+                        "type": "feature",
+                        "name": "Jungle"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Sea"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Ocean"
+                    }
+                ]
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Well"
+        ]
+    },
+    {
+        "name": "Rubber",
+        "description": "Rubber is an elastic natural polymer harvested mainly from the latex of Hevea brasiliensis. Indigenous tapping began in the Amazon, but commercial scale developed after the 19th-century relocation of seeds to Kew and plantation systems in British Malaya and the Dutch East Indies. Charles Goodyear\u2019s vulcanization process in 1839 stabilized rubber for industrial use. By the early 20th century it underpinned tires, belts, gaskets, and seals. Demand surged in World War I and again in World War II. Japanese occupation of Southeast Asia forced Allied emergency programs for synthetic rubber and strict rationing. After 1945, global automotive growth kept plantations and synthetic producers at the center of world trade. Rubber remained a strategic input for vehicle fleets, aviation ground gear, military equipment, and a wide range of industrial goods.",
+        "requires": [
+            {
+                "type": "feature",
+                "name": "Jungle"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Plantation"
+        ]
+    },
+    {
+        "name": "Rare Earth Metals",
+        "description": "Rare earth metals are the lanthanides plus yttrium and scandium. Their similar chemistry makes separation difficult, so production depends on complex processing chains. Early uses included glass polishing and specialized lighting. From the late 20th century, neodymium-iron-boron magnets enabled compact motors, electronics, and precision guidance. Cold War electronics, radar, and aerospace systems drew on europium, samarium, and other rare earths. The Bayan Obo deposit in China became a leading source and processing hub by the later 20th century, eclipsing earlier centers such as Mountain Pass in the United States. Supply concentration created recurring security concerns for high-technology industries. By the 2000s, rare earths were embedded in wind turbines, smartphones, and missile systems, linking resource policy to industrial strategy and defense planning.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "elevation",
+                        "name": "Hill"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Tundra"
+                    },
+                    {
+                        "type": "feature",
+                        "name": "Jungle"
+                    }
+                ]
+            }
+        ],
+        "yields": [
+            {
+                "name": "Science",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Tungsten",
+        "description": "Tungsten is a dense, refractory metal noted for high hardness and the highest melting point among metals. Ores include wolframite and scheelite. Industrial uses developed with tungsten filaments in early incandescent bulbs, then expanded with tungsten carbide tooling for machining and mining. In both world wars, tungsten became a strategic material for armor-piercing cores and anti-armor ordnance. Its density and strength improved penetrators and gun barrels. Control of supply was a wartime objective, involving deposits in China, Portugal, Spain, and Southeast Asia. Postwar, tungsten carbide remained central to high-speed cutting and wear-resistant applications. The metal\u2019s role in precision tooling linked it to modern manufacturing capacity, while military demand persisted for kinetic energy penetrators and high-temperature alloys in aerospace.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Aluminium",
+        "description": "Aluminium is a lightweight, corrosion-resistant metal produced industrially through the Bayer refining of bauxite and the Hall-H\u00e9roult electrolytic process (1886). Before this innovation, the metal was rare and costly. Cheap electricity made large smelters viable, often near hydroelectric sites. During World War I and World War II, aluminium became essential for aircraft airframes and engines, prompting state-directed expansion in the United States, United Kingdom, and the Soviet bloc. Strategic stockpiles and scrap drives supplemented new production. Postwar, the metal underpinned civil aviation, power transmission, construction, and packaging. Its fabrication into sheets, extrusions, and alloys supported modern infrastructure and transportation. Governments treated smelters as critical industrial assets, securing ore, energy, and skilled labor to maintain continuous output.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Uranium",
+        "description": "Uranium is a heavy, radioactive element central to nuclear energy and nuclear weapons. Natural uranium contains U-235 and U-238; enrichment concentrates U-235 for reactor fuel or weapons. The Manhattan Project (1942\u201345) built the first atomic weapons, drawing ore from sources such as Shinkolobwe in the Belgian Congo. From the 1950s, commercial reactors produced electricity while military programs sustained mining, enrichment, and reprocessing. During the Cold War, gaseous diffusion and later centrifuge plants became strategic facilities. Uranium deposits in North America, Africa, Central Asia, and Australia fed global supply. Accidents and proliferation concerns shaped policy, leading to safeguards and international oversight. Despite shifts in energy markets, uranium remained a critical resource linking geology, state power, and advanced industrial systems.",
+        "requires": [
+            {
+                "type": "any",
+                "items": [
+                    {
+                        "type": "terrain",
+                        "name": "Desert"
+                    },
+                    {
+                        "type": "terrain",
+                        "name": "Tundra"
+                    }
+                ]
+            }
+        ],
+        "yields": [
+            {
+                "name": "Science",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    },
+    {
+        "name": "Graphite",
+        "description": "Graphite is a crystalline form of carbon with layered structure, electrical conductivity, and high-temperature stability. The Borrowdale deposit in England supplied high-purity material from the 16th to 19th centuries, enabling superior pencil leads. In the 19th century, graphite served as a dry lubricant for machinery and as a refractory material in crucibles. The 20th century introduced synthetic graphite and large electrodes for electric arc steelmaking. In nuclear history, graphite acted as a moderator and structural material, notably in Chicago Pile-1 (1942) and early reactor designs. Later applications included seals, battery anodes, and high-temperature composites. Natural and synthetic sources together sustained diverse industrial uses tied to metallurgy, energy, and precision manufacturing.",
+        "requires": [
+            {
+                "type": "elevation",
+                "name": "Hill"
+            }
+        ],
+        "yields": [
+            {
+                "name": "Gold",
+                "value": 1
+            }
+        ],
+        "improvementCategories": [
+            "Mine"
+        ]
+    }
+]

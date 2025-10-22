@@ -4,7 +4,7 @@ using PohLibrary.Helpers;
 
 namespace PohLibrary.TypeObjects;
 
-public class CategorizedTypeObject(string id, string name, string? description) :
+public class CategorizedTypeObject(string id, string name, string description) :
     ComplexTypeObject(id, name, description),
     IObjectWithCategory
 {

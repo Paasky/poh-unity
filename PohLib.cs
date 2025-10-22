@@ -55,11 +55,6 @@ public static class PohLib
     {
         return $"{className}:{id}";
     }
-
-    public static Dictionary<string, List<Exception>> InitTryToErrors()
-    {
-        return new Dictionary<string, List<Exception>>();
-    }
     
     public static T? TryTo<T>(
         Func<T> fn,
@@ -101,7 +96,7 @@ public static class PohLib
 
     public static void TryToForeach<T>(IEnumerable<T> list, Action<T> fn, string context)
     {
-        var errors = InitTryToErrors();
+        var errors = new Dictionary<string, List<Exception>>();
         var i = 0;
         foreach (var itemElem in list)
         {

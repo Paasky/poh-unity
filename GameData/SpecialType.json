@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Against your Incident"
+    },
+    {
+        "name": "All cities"
+    },
+    {
+        "name": "All cities with Railroad"
+    },
+    {
+        "name": "All cities with River"
+    },
+    {
+        "name": "All in tile"
+    },
+    {
+        "name": "Can build Satellites"
+    },
+    {
+        "name": "Can carry stockpile"
+    },
+    {
+        "name": "Can enter Ice"
+    },
+    {
+        "name": "Can enter Mountains"
+    },
+    {
+        "name": "Can enter Ocean"
+    },
+    {
+        "name": "Can enter Sea"
+    },
+    {
+        "name": "Can hold tournaments"
+    },
+    {
+        "name": "Can levy"
+    },
+    {
+        "name": "Can mobilize"
+    },
+    {
+        "name": "Can move after attack"
+    },
+    {
+        "name": "Can select Target"
+    },
+    {
+        "name": "Cannot attack Water"
+    },
+    {
+        "name": "Cannot be attacked"
+    },
+    {
+        "name": "Cannot build units"
+    },
+    {
+        "name": "Cannot buy buildings"
+    },
+    {
+        "name": "Cannot decline trade"
+    },
+    {
+        "name": "Cannot Enter"
+    },
+    {
+        "name": "Cannot kill Land Units"
+    },
+    {
+        "name": "Cannot trade non-allies"
+    },
+    {
+        "name": "Choose Free Technology"
+    },
+    {
+        "name": "Damages all Units in Tile"
+    },
+    {
+        "name": "Damages Buildings"
+    },
+    {
+        "name": "Damages Improvements"
+    },
+    {
+        "name": "Distance from Capital"
+    },
+    {
+        "name": "Elections"
+    },
+    {
+        "name": "Force automatic build queue"
+    },
+    {
+        "name": "Forced state religion"
+    },
+    {
+        "name": "Ignore move cost"
+    },
+    {
+        "name": "Invisible before move"
+    },
+    {
+        "name": "Land units can enter"
+    },
+    {
+        "name": "Max 2 per City"
+    },
+    {
+        "name": "Must be in airbase"
+    },
+    {
+        "name": "Must be in airbase"
+    },
+    {
+        "name": "Next to Coast"
+    },
+    {
+        "name": "Next to Major River"
+    },
+    {
+        "name": "No defense bonuses"
+    },
+    {
+        "name": "No Desert damage"
+    },
+    {
+        "name": "No Jungle damage"
+    },
+    {
+        "name": "No Snow damage"
+    },
+    {
+        "name": "No state religion"
+    },
+    {
+        "name": "Only on Resource"
+    },
+    {
+        "name": "Pillage Range 1"
+    },
+    {
+        "name": "Ships can enter"
+    },
+    {
+        "name": "Single use"
+    },
+    {
+        "name": "Start size 1"
+    },
+    {
+        "name": "Start size 2"
+    },
+    {
+        "name": "Start size 3"
+    },
+    {
+        "name": "Start size 4"
+    },
+    {
+        "name": "Stockpiled"
+    }
+]

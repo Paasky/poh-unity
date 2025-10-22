@@ -1,0 +1,402 @@
+[
+    {
+        "name": "First Cities",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Tradition"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 25
+            }
+        ],
+        "pointsFrom": [
+            "1p per pop, 1p per building",
+            "10p for G\u00f6bekli Tepe"
+        ],
+        "description": "First cities emerged during the Neolithic and early Bronze Age as permanent settlements with planned space, ritual centers, and surplus storage. They concentrated population, craft specialists, and exchange. Defensive works and monumental buildings marked authority and collective labor. G\u00f6bekli Tepe shows early ceremonial architecture preceding full urban life. Jericho offers one of the earliest fortified sites with towers and walls. \u00c7atalh\u00f6y\u00fck displays dense agglomeration, house-centered rituals, and extensive craft production, often viewed as a proto-city. Later urban centers added administration, writing, and formal markets. These settlements created enduring patterns of governance, religion, and economy that framed later civilizations."
+    },
+    {
+        "name": "Trade Network",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Commerce"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 30
+            }
+        ],
+        "pointsFrom": [
+            "1p per trade route, 3p per trade to unique player",
+            "10p for Colossus"
+        ],
+        "description": "Trade networks link distant communities through regular exchange of raw materials, finished goods, and knowledge. In the Bronze Age Mediterranean, Minoan and Mycenaean mariners moved metals, ceramics, and luxury items among islands and coastal hubs. Phoenician sailors later organized wide maritime routes, established colonies, and spread alphabets and crafts. The Indus Valley maintained contacts with Mesopotamia via overland caravans and Gulf shipping, moving lapis, carnelian, timber, and textiles. Such networks required standardized weights, seals, credit practices, and diplomatic ties. They carried religious motifs and technical skills along with goods, reshaping economies and social hierarchies across broad regions."
+    },
+    {
+        "name": "Pantheon of Gods",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Pottery"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 35
+            }
+        ],
+        "pointsFrom": [
+            "2p per Temple, 3p per God",
+            "10p for Pantheon"
+        ],
+        "description": "A pantheon is the ordered assembly of deities acknowledged by a society, sustained by cult rites, temples, and priestly administration. In Sumer and Babylonia, city gods occupied ziggurats and received offerings through temple economies that controlled land and labor. Ancient Egypt organized state cults for deities and the divine kingship, with large temple estates and ritual calendars. In the Levant, Solomonic traditions centered on the Jerusalem Temple and its sacrificial system. Pantheons allowed syncretism, festival cycles, and civic identity. They anchored law, kingship, and memory, and they produced monumental architecture that structured urban landscapes for centuries."
+    },
+    {
+        "name": "Wonders of the World",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Government"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 40
+            }
+        ],
+        "pointsFrom": [
+            "6p per Wonder"
+        ],
+        "description": "The Seven Wonders of the ancient world formed a Hellenistic catalog of exceptional monuments known to travelers and writers. The list featured the Great Pyramid of Giza, the Hanging Gardens of Babylon, the Temple of Artemis at Ephesus, the Statue of Zeus at Olympia, the Mausoleum at Halicarnassus, the Colossus of Rhodes, and the Lighthouse of Alexandria. These works displayed mastery of stone, bronze, and large-scale construction, and they served religious, funerary, civic, or navigational purposes. Most were destroyed by earthquakes, fires, or reuse of materials. The tradition shaped later canons of world monuments and inspired antiquarian study."
+    },
+    {
+        "name": "Great Philosophers",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Philosophy"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 45
+            }
+        ],
+        "pointsFrom": [
+            "2p per pop in Library & Amphitheater",
+            "15p for Library of Alexandria"
+        ],
+        "description": "Classical Greek philosophy developed systematic inquiry into ethics, politics, metaphysics, and knowledge. Socrates taught through questioning and moral examination. Plato founded the Academy and advanced theories of forms and just governance. Aristotle established the Lyceum, codified logic, and analyzed nature and causation. The Hellenistic era broadened the field with Stoicism, Epicureanism, and the Peripatetic tradition. The Library and Museum of Alexandria supported scholarship, commentary, and scientific research. Texts circulated across the Mediterranean and later through late antique, Islamic, and medieval Christian scholars. Their methods shaped curricula, law, natural philosophy, and public debate for millennia."
+    },
+    {
+        "name": "Veni, Vidi, Vici",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Iron Smithing"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 50
+            }
+        ],
+        "pointsFrom": [
+            "2p per Training Ground, 10p per foreign city",
+            "15p for Terracotta Army"
+        ],
+        "description": "Veni, vidi, vici is a Latin proclamation attributed to Julius Caesar after his rapid victory over Pharnaces II at Zela in 47 BCE. The phrase, meaning \u201cI came, I saw, I conquered,\u201d appeared in dispatches to the Roman Senate and on triumphal displays. It condensed the message of swift, decisive action and legitimized authority through success in war. Roman politicians reused the slogan in inscriptions and public celebrations to frame campaigns as complete and uncontested. Later rulers and generals adopted it as a motto when recording quick victories, linking themselves to Caesarian speed and effective command."
+    },
+    {
+        "name": "Olympics",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Sports"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 40
+            }
+        ],
+        "pointsFrom": [
+            "2p per Training Ground, 10p per foreign city",
+            "15p for Terracotta Army"
+        ],
+        "description": "The ancient Olympic Games were a Pan-Hellenic festival held at Olympia to honor Zeus. The first recorded festival dates to 776 BCE. Athletes from Greek cities competed in events such as the stadion race, wrestling, boxing, pentathlon, and chariot racing. A sacred truce protected travel and assemblies. Victors received wreaths and lifelong honors in their home cities. Under Roman rule, emperors patronized the games, and Greek athletic festivals continued across the empire. The tradition faded in late antiquity as institutions changed. Nineteenth-century scholars and organizers revived the idea in modern form, using the ancient model as inspiration."
+    },
+    {
+        "name": "Feudal Lords",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Feudalism"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 55
+            }
+        ],
+        "pointsFrom": [
+            "1p per Feudal improvement, 5p per Castle",
+            "15p for Great Wall"
+        ],
+        "description": "Feudal lords were landholding elites bound by personal ties of homage and fealty to higher nobles or kings. They granted fiefs to vassals in exchange for military service and counsel. Authority rested on control of castles, courts, and rights over peasantry. After 1066, Norman barons in England held estates from William and supplied knights for campaigns. In Capetian France, castellans and regional vassals organized local defense and justice. In Japan, daimyo governed domains and maintained samurai retinues under shifting central authority. This structure shaped taxation, warfare, and regional politics from the high Middle Ages into early modern periods."
+    },
+    {
+        "name": "Tournaments",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Chivalry"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 60
+            }
+        ],
+        "pointsFrom": [
+            "5p per Cathedral, 5p per Dogma",
+            "20p for Notre Dame"
+        ],
+        "description": "Medieval tournaments were formalized combats that trained warriors and displayed chivalric status. Early events featured large melees simulating battlefield maneuvers across open ground. By the thirteenth century, the joust with lances in enclosed lists dominated. Rules, heraldry, and heralds regulated conduct and recorded arms. Monarchs and magnates sponsored pas d\u2019armes and prize contests to recruit fighters, cement alliances, and entertain courts. In England and France, major series of tournaments accompanied royal ceremonies, as under Edward III. Over time, safer armor, blunted lances, and pageantry increased, and the tournament became a controlled spectacle rather than war practice."
+    },
+    {
+        "name": "Mandate of Heaven",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Divine Right"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 60
+            }
+        ],
+        "pointsFrom": [
+            "5p per Cathedral, 5p per Dogma",
+            "20p for Notre Dame"
+        ],
+        "description": "The Mandate of Heaven is a Chinese doctrine stating that just rule grants divine approval, while misrule voids it. The Zhou used it to justify replacing the Shang in the eleventh century BCE. Natural disasters, famine, and rebellion signaled a loss of mandate, encouraging acceptance of dynastic change. Han rulers elaborated its moral dimension in state ideology. Rebel leaders and new dynasties later invoked it, as when Ming forces overthrew the Yuan. The concept framed the dynastic cycle and guided historical judgment, balancing hereditary claim with performance in governance and care for the populace."
+    },
+    {
+        "name": "Ocean Voyages",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Carvel Hulls"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 65
+            }
+        ],
+        "pointsFrom": [
+            "1p per Carvel Unit, 5p per known continent",
+            "20p for Circumnavigation"
+        ],
+        "description": "Ocean voyages of the fifteenth and sixteenth centuries linked distant hemispheres through sustained blue-water sailing. Mariners used caravels and carracks, lateen and square rigs, the magnetic compass, and the astrolabe. Portolan charts, dead reckoning, and growing knowledge of currents and winds guided routes. Iberian crowns funded expeditions to bypass overland trade and rival fleets. Columbus reached the Caribbean for Castile in 1492\u20131504. Vasco da Gama rounded the Cape of Good Hope to India in 1497\u20131499, creating the Carreira da \u00cdndia. The Magellan\u2013Elcano circumnavigation of 1519\u20131522 established the Pacific\u2019s scale and global sea connectivity. Voyages mapped trade winds, westerlies, and monsoon cycles and set up oceanic way stations. They carried merchants, soldiers, missionaries, and administrators. Scurvy, storms, mutiny, and shipwreck remained constant risks. The new routes bound Europe, Africa, Asia, and the Americas into a single maritime system."
+    },
+    {
+        "name": "Colonial Empire",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Colonialism"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 70
+            }
+        ],
+        "pointsFrom": [
+            "2p per Outpost\/5p per City in other continent",
+            "20p for West India Docks"
+        ],
+        "description": "European states built overseas empires through conquest, settlement, and chartered companies from the sixteenth century onward. The Spanish Empire in the Americas drew silver and agricultural wealth under crown monopolies and forced labor systems. The British and Dutch East India Companies fused trade with coercion, fielded private armies, and established fortified ports and administrative enclaves. The Portuguese expanded across Brazil and Atlantic Africa, developing sugar plantations and slave trafficking networks. Mercantilist policies regulated commerce and prioritized metropolitan industry. Missionary activity advanced cultural and legal change. Indigenous resistance, disease, and adaptation reshaped societies on all sides. Revolutions and anticolonial movements from the late eighteenth to the twentieth century dismantled many imperial structures."
+    },
+    {
+        "name": "The Enlightenment",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Education"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 75
+            }
+        ],
+        "pointsFrom": [
+            "1p per pop in Science building, 2p per Enlightenment Tech",
+            "25p for Oxford University"
+        ],
+        "description": "The Enlightenment was an eighteenth-century intellectual movement that promoted reason, empirical science, and secular reform in politics and society. Learned societies such as the Royal Society sponsored experimental inquiry, while academies and journals spread vetted results. The Encyclop\u00e9die and Parisian salons connected authors, artisans, and patrons and diffused arguments about knowledge and utility. Philosophers including Locke, Voltaire, and Rousseau advanced natural rights, religious toleration, the social contract, and critiques of arbitrary power. Newtonian physics and experimental method shaped wider standards of proof. Print culture carried debates across Europe and the Atlantic. Censorship prompted both self-restraint and open conflict with authorities. Enlightenment programs informed legal codification, educational reform, and projects of public improvement. They also fed revolutionary rhetoric in the late eighteenth century, while monarchs and ministers selectively applied ideas to strengthen state capacity."
+    },
+    {
+        "name": "World's Fair",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Industrialization"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 80
+            }
+        ],
+        "pointsFrom": [
+            "1p per urban hex, 3p per Magistrate",
+            "25p for Old Bailey"
+        ],
+        "description": "World\u2019s fairs were international expositions that displayed industrial process, arts, science, and national prestige. The Great Exhibition of 1851 in London, housed in the Crystal Palace, set a model for mass display of machinery and raw materials. The 1889 Exposition Universelle in Paris unveiled the Eiffel Tower as a colossal entrance structure and a statement of engineering skill. Chicago\u2019s World\u2019s Columbian Exposition of 1893 presented the \u201cWhite City,\u201d electric lighting, and new amusements such as the Ferris Wheel. Expositions fostered standards, patents, and commercial exchange, and staged colonial pavilions and ethnographic displays. They left urban legacies in architecture, parks, and transit, and served as arenas for diplomatic signaling and public education about modern technology."
+    },
+    {
+        "name": "Urban Society",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Bureaucracy"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 80
+            }
+        ],
+        "pointsFrom": [
+            "1p per urban hex, 3p per Magistrate",
+            "25p for Old Bailey"
+        ],
+        "description": "Urban society in the nineteenth century developed dense settlements with formal policing, sanitation, and bureaucratic governance. Haussmann\u2019s reconstruction of Paris created broad boulevards, sewers, and new housing stock, integrating traffic and public health goals. London\u2019s Metropolitan Police, municipal boards, and courts professionalized order and administration. Expanding magistracies and institutions such as the Old Bailey shaped routine justice and record keeping. Cities deployed piped water, gas, and later electric lighting, and extended rail and tram networks. Growth produced slums and reform campaigns, zoning, and building codes. Urban institutions coordinated welfare, schooling, and public works, embedding the city as the core engine of national economies."
+    },
+    {
+        "name": "Industrial Might",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Steel Milling"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 85
+            }
+        ],
+        "pointsFrom": [
+            "1p per Coal & Iron, 5p per Factory & Steel Mill",
+            "25p for Ruhr Valley"
+        ],
+        "description": "Industrial might arose from mechanized production, high-energy fuels, and scaled organization. The Bessemer process lowered steel costs and enabled mass rolling mills by the late nineteenth century. Carnegie Steel integrated mines, rail, and mills to dominate the U.S. steel market. Germany\u2019s Ruhr Valley fused coal and iron into a heavy-industry complex tied to chemical and electrical sectors. Manchester and Lancashire textile mills harnessed steam power and factory discipline to supply global markets. Railroads, telegraphs, and standardized parts coordinated supply chains. Trusts and cartels managed prices and investment. Industrial power underwrote military capacity, urban growth, and national fiscal strength."
+    },
+    {
+        "name": "World War",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Repeating Rifles"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 90
+            }
+        ],
+        "pointsFrom": [
+            "Triggered on 33% of players at war, end on winning peace deal, points given to top 5 by war score"
+        ],
+        "description": "World war mobilized entire societies, treasuries, and industries for sustained conflict. In the First World War, general staffs coordinated mass conscription, rail timetables, and shell production. Repeating rifles, machine guns, and heavy artillery fixed fronts into trench systems. Battles such as the Somme and Verdun demonstrated extreme firepower and attrition. Aviation, armor, and chemical agents entered the battlefield. Civilian economies rationed food and fuel and expanded munitions workforces. Propaganda and censorship shaped morale. The scale of casualties and resource demands drove diplomacy, revolution, and postwar reconstruction, setting patterns for later industrialized warfare."
+    },
+    {
+        "name": "Nuclear Deterrence",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Fission"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 95
+            }
+        ],
+        "pointsFrom": [
+            "3p per Atom Bomb, 5p per Hydrogen Bomb"
+        ],
+        "description": "Nuclear deterrence is a strategic doctrine that seeks to prevent attack by threatening devastating retaliation. The Manhattan Project produced atomic weapons used in 1945. During the Cold War, the superpowers built arsenals and tested high-yield devices such as the Tsar Bomba. Mutual Assured Destruction defined the risks of a nuclear exchange and steered crisis behavior. Delivery systems expanded into a triad of bombers, land-based missiles, and submarine-launched missiles. The Cuban Missile Crisis exposed escalation dangers and prompted hotlines and arms control. Treaties, verification, and second-strike survivability became core tools for stabilizing nuclear relations."
+    },
+    {
+        "name": "Security Council",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Plastics"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 100
+            }
+        ],
+        "pointsFrom": [
+            "3p per Atom Bomb, 5p per Hydrogen Bomb"
+        ],
+        "description": "The United Nations Security Council, created in 1945, was tasked with maintaining international peace and security. Five permanent members received veto power, shaping decision-making during the Cold War and after. The Council authorized collective action in Korea in 1950 and later established peacekeeping mandates on multiple continents. It issues sanctions, arms embargoes, and resolutions under Chapters VI and VII of the UN Charter. Vetoes often blocked action during superpower standoffs, while post\u2013Cold War operations expanded scope and tempo. Debates continue over membership, regional balance, and the effectiveness of enforcement tools."
+    },
+    {
+        "name": "Global Trade",
+        "requires": [
+            {
+                "type": "technology",
+                "name": "Globalization"
+            },
+            {
+                "type": "yield",
+                "name": "Goal Points",
+                "value": 100
+            }
+        ],
+        "pointsFrom": [
+            "2p per trade to unique player, 5p per trade to unique continent",
+            "30p for Tempelhof Airport"
+        ],
+        "description": "Global trade links distant markets through integrated logistics, finance, and regulation. Containerization from the 1960s cut shipping costs and enabled just-in-time supply chains. Air transport added speed for high-value goods, as seen in airlift operations such as Tempelhof during the Berlin Airlift. Multilateral rules evolved from GATT to the World Trade Organization, setting tariff schedules and dispute procedures. Trade delegations, multinational firms, and offshore production knit manufacturing and services across regions. Digital systems track inventories and payments, while large ports and hubs concentrate flows. Shocks and policy shifts test resilience and drive diversification."
+    },
+    {
+        "name": "World Wide Web",
+        "description": "The World Wide Web is a hypertext-based information system devised by Tim Berners-Lee at CERN between 1989 and 1991. It integrated URLs, HTTP, and HTML to link documents across TCP\/IP networks. The first website went live in 1991. Adoption accelerated with graphical browsers, notably NCSA Mosaic (1993) and Netscape Navigator (1994), which brought images and clickable links to mass audiences. Open standards and the client\u2013server model enabled rapid publishing and search. Commercialization in the mid-1990s produced the dot-com boom, e-commerce, and online advertising. After the 2000 crash, the Web evolved toward interactive platforms, social media, and cloud services. Web 2.0 fostered user-generated content and network effects. The mobile era extended access via smartphones and responsive design. The Web now underpins communication, software distribution, finance, education, and entertainment, while governance debates center on privacy, security, interoperability, and content moderation."
+    },
+    {
+        "name": "Space Race",
+        "description": "The contemporary Space Race is a multipolar and commercialized competition to secure access to space, reduce launch costs, and gain strategic or scientific advantage. Reusable rockets by SpaceX changed price and cadence from 2015 onward and enabled commercial crew transport to the ISS. China advanced with the Chang\u2019e lunar program, the Tianwen\u20111 Mars mission, and the Tiangong space station. NASA and partners pursue Artemis for lunar return and a lasting cislunar presence. Private firms deploy satellite megaconstellations and develop commercial lunar landers. Competition now mixes national prestige, industrial policy, military applications, and global communications infrastructure."
+    },
+    {
+        "name": "One True Faith",
+        "description": "One True Faith describes political-religious projects that aim to enforce a single creed or ideology across populations or borders. States and movements have used law, education, media, and coercion to promote uniform belief and suppress dissent. In the late 20th and early 21st centuries, Saudi-funded promotion of Wahhabi doctrines shaped religious institutions abroad. The Islamic State sought territorial control under rigid legal codes during the 2010s before military defeat. Religious nationalism in several countries linked majority faiths to state identity and policy. Such campaigns generate resistance, sectarian conflict, and counter-radicalization measures, and often prompt international scrutiny."
+    },
+    {
+        "name": "World Police",
+        "description": "World Police refers to the use of military power by a state or coalition to enforce international norms or restore order beyond its borders. After 1945, the United States developed global force projection and practiced intervention, notably in Afghanistan (2001) and Iraq (2003). NATO conducted operations in Kosovo (1999) and Libya (2011). UN Security Council mandates underpin peacekeeping and stabilization missions, though mandates vary in scope and rules of engagement. Supporters argue such actions deter aggression and mass atrocities. Critics point to sovereignty violations, uneven application, and protracted occupations. Outcomes depend on legitimacy, planning, and post-conflict governance."
+    },
+    {
+        "name": "Globalization",
+        "description": "Globalization is the intensification of cross-border flows of goods, capital, people, and data, producing dense interdependence. Late 20th\u2011century trade liberalization, container shipping, and just\u2011in\u2011time production enabled global supply chains dominated by multinational firms. China\u2019s entry into the WTO in 2001 accelerated manufacturing shifts and export growth. The 2008 financial crisis exposed systemic linkages across banking networks. From the 2010s, digital platforms and cloud services expanded cross\u2011border information and remote work. The COVID\u201119 pandemic revealed vulnerabilities in logistics and public health coordination while spurring reshoring debates. Policy responses now balance openness with security, resilience, and industrial strategy."
+    },
+    {
+        "name": "World Domination",
+        "description": "World Domination denotes ambitions to secure comprehensive political, military, or economic control at a global scale. In the 20th century, ideologically driven projects included the Comintern\u2019s effort to foster worldwide communist revolution and Nazi Germany\u2019s plans for continental conquest before defeat in 1945. After 1945, the United States built an alliance network, financial institutions, and forward deployments that produced extensive influence sometimes termed Pax Americana. In the late 20th and 21st centuries, multinational corporations and digital platforms pursued universal market reach and infrastructural control. Attempts at total dominance have met counterbalancing coalitions, nationalist resistance, and regulatory constraints."
+    }
+]

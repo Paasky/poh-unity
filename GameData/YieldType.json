@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Air Slot",
+        "description": ""
+    },
+    {
+        "name": "Attack",
+        "description": ""
+    },
+    {
+        "name": "Citizen Slot",
+        "description": ""
+    },
+    {
+        "name": "Culture",
+        "description": ""
+    },
+    {
+        "name": "Damage",
+        "description": ""
+    },
+    {
+        "name": "Defense",
+        "description": ""
+    },
+    {
+        "name": "Evasion",
+        "description": ""
+    },
+    {
+        "name": "Faith",
+        "description": ""
+    },
+    {
+        "name": "Food",
+        "description": ""
+    },
+    {
+        "name": "Goal Points",
+        "description": ""
+    },
+    {
+        "name": "Gold",
+        "description": ""
+    },
+    {
+        "name": "Happiness",
+        "description": ""
+    },
+    {
+        "name": "Heal",
+        "description": ""
+    },
+    {
+        "name": "Health",
+        "description": ""
+    },
+    {
+        "name": "Hit Radius",
+        "description": ""
+    },
+    {
+        "name": "Influence",
+        "description": ""
+    },
+    {
+        "name": "Influence Cost",
+        "description": ""
+    },
+    {
+        "name": "Intercept",
+        "description": ""
+    },
+    {
+        "name": "Missile Slot",
+        "description": ""
+    },
+    {
+        "name": "Moves",
+        "description": ""
+    },
+    {
+        "name": "Move Cost",
+        "description": ""
+    },
+    {
+        "name": "Order",
+        "description": ""
+    },
+    {
+        "name": "Other Culture",
+        "description": ""
+    },
+    {
+        "name": "Other Faith",
+        "description": ""
+    },
+    {
+        "name": "Paradrop Range",
+        "description": ""
+    },
+    {
+        "name": "Production",
+        "description": ""
+    },
+    {
+        "name": "Production Cost",
+        "description": ""
+    },
+    {
+        "name": "Range",
+        "description": ""
+    },
+    {
+        "name": "Resource Yield",
+        "description": ""
+    },
+    {
+        "name": "Science",
+        "description": ""
+    },
+    {
+        "name": "Science Cost",
+        "description": ""
+    },
+    {
+        "name": "Sight Radius",
+        "description": ""
+    },
+    {
+        "name": "Span",
+        "description": ""
+    },
+    {
+        "name": "Strength",
+        "description": ""
+    },
+    {
+        "name": "Trade Range",
+        "description": ""
+    },
+    {
+        "name": "Trade Slot",
+        "description": ""
+    },
+    {
+        "name": "Trade Yield",
+        "description": ""
+    },
+    {
+        "name": "Upkeep",
+        "description": ""
+    }
+]
